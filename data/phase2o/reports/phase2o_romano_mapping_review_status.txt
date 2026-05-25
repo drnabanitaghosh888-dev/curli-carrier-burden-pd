@@ -1,0 +1,4 @@
+STATUS = MAPPING_REVIEW_COMPLETE
+MOTUS_ORIENTATION = samples_as_columns_default
+READY_FOR_COHORT_SELECTION = YES
+SELECTION_RULE = choose largest eligible Study with >=20 PD and >=20 controls, excluding obvious overlap with already analyzed cohorts

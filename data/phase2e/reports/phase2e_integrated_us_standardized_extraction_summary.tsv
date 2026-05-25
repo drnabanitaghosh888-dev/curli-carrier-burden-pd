@@ -1,0 +1,2 @@
+status	n_samples	n_species_rows	Case_status_counts	PD_binary_counts	abundance_sample_column_count	sample_metadata_row_count	sample_id_match_status	abundance_column_sums_min	abundance_column_sums_median	abundance_column_sums_max	duplicate_clade_name_count	observed_donor_group_values	observed_PD_values	phenotype_mapping_status	donor_group_conflict_count	notes
+SUCCESS	244	451	Control:149;PD:95	0:149;1:95	244	244	PASS	0.0	100.0	100.00005999999999	0	HC;PC;PD	No;Yes	PASS	0	

@@ -1,0 +1,22 @@
+PHASE2Y_MAIN_COHORTWISE_EVIDENCE_QUANTIFICATION
+status=PASS
+analysis_type=cohort-wise descriptive quantification, not formal meta-analysis
+n_main_manuscript_cohorts=5
+n_cohorts_PD_gt_HC_by_both_mean_and_median=5
+n_cohorts_positive_nominal_support=0
+n_cohorts_directionally_consistent_non_significant_support=5
+n_cohorts_high_or_moderate_taxon_compatibility=5
+mean_descriptive_evidence_score_0_10=5.950
+median_descriptive_evidence_score_0_10=6.000
+
+Included main-manuscript cohorts:
+- Wallen_2022: class=directionally_consistent_support; score=6.00/10; n=724; PD=490; HC=234; matched_taxa=31; mean_direction=PD>HC; median_direction=PD>HC; p=nan; delta=nan
+- Integrated_US_multicohort: class=directionally_consistent_support; score=6.00/10; n=244; PD=95; HC=149; matched_taxa=18; mean_direction=PD>HC; median_direction=PD>HC; p=nan; delta=nan
+- Mao_2021_Central_China: class=directionally_consistent_support; score=5.50/10; n=78; PD=39; HC=39; matched_taxa=17; mean_direction=PD>HC; median_direction=PD>HC; p=nan; delta=nan
+- Romano_nonWallen: class=directionally_consistent_support; score=6.00/10; n=600; PD=280; HC=320; matched_taxa=29; mean_direction=PD>HC; median_direction=PD>HC; p=nan; delta=nan
+- DuruIC_2024: class=directionally_consistent_support; score=6.25/10; n=134; PD=68; HC=66; matched_taxa=42; mean_direction=PD>HC; median_direction=PD>HC; p=0.3068629731125556; delta=0.1024955436720142
+
+Interpretation:
+This table quantifies cohort-wise evidence for the Curli Carrier Burden index without pooling effects across studies.
+The descriptive evidence score is intended for transparent comparison of direction, nominal support, effect size, taxon compatibility, and sample size.
+It should not be interpreted as a formal meta-analytic statistic or diagnostic performance metric.

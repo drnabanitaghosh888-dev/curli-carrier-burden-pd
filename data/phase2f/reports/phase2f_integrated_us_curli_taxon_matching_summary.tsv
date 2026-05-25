@@ -1,0 +1,2 @@
+n_candidates	n_species_rows	n_exact_species_matches	n_binomial_species_matches	n_genus_fallback_exploratory	n_no_match	n_primary_species_unique	n_duplicate_primary_rows_collapsed	status
+315	451	21	33	183	201	18	36	PASS

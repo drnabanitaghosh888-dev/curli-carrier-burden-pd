@@ -1,0 +1,13 @@
+PHASE2O_ROMANO_NONWALLEN_REPLICATION_MANIFEST
+metadata_file=data/phase2o/manual_sources/romano_pd_ml_meta_2025/zenodo_extract/Metadata_All/Metadata/metadata.smg.txt
+motus_file=data/phase2o/manual_sources/romano_pd_ml_meta_2025/zenodo_extract/SMG_profiles/SMG/Taxonomy/mOTUs.txt
+n_total_metadata_samples=1324
+n_samples_present_in_motus=1324
+n_wallen_samples_excluded=724
+n_nonwallen_replication_samples=600
+n_nonwallen_PD=280
+n_nonwallen_HC=320
+status=READY_FOR_NONWALLEN_CCB_ANALYSIS
+
+Interpretation:
+Romano metadata and mOTUs are fully mapped. Wallen_2022 samples are excluded to avoid discovery-replication overlap. The remaining non-Wallen samples form the independent Romano replication subset for Curli Carrier Burden analysis.

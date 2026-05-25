@@ -1,0 +1,37 @@
+PHASE2O_ROMANO_FINAL_DECISION_REPORT
+
+analysis_set=Romano_nonWallen_600
+candidate_source=data/000_phase2o_curli_reference/000_curli_candidate_species.tsv
+n_samples=600
+n_PD=280
+n_HC=320
+n_studies=6
+n_matched_curli_motus_taxa=29
+
+Pooled CCB result:
+PD_median_CCB=0.0009723175474719
+HC_median_CCB=0.0005973792394655
+PD_mean_CCB=0.0152802157402565
+HC_mean_CCB=0.0103536842537136
+mannwhitney_p=0.0036244265192112
+cliffs_delta=0.1373995535714285
+
+Study-aware result:
+study_stratified_log1p_mean_difference_PD_minus_HC=0.0035813526592543
+study_stratified_permutation_p=0.1973605278944211
+n_permutations=5000
+
+Leave-one-study-out robustness:
+all_leave_one_out_mean_directions_PD_gt_HC=True
+all_leave_one_out_median_directions_PD_gt_HC=True
+
+Within-study heterogeneity:
+n_studies_tested=6
+n_studies_PD_gt_HC_by_mean=4
+n_studies_PD_gt_HC_by_median=3
+n_within_studies_nominal_p_lt_0_05=2
+
+decision=WEAK_COHORT_SENSITIVE_SUPPORT_NOT_DEFINITIVE_REPLICATION
+
+Manuscript-safe conclusion:
+Using the curated curli candidate set, the independent non-Wallen Romano subset showed higher Curli Carrier Burden in PD than HC in pooled analysis. The direction of the pooled effect remained positive in leave-one-study-out analyses. However, the association did not remain significant under study-stratified permutation testing, and within-study effects were heterogeneous. Therefore, the Romano analysis should be interpreted as weak, cohort-sensitive external support rather than definitive independent replication.

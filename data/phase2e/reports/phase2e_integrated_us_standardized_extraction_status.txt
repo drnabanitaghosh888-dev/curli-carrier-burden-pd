@@ -1,0 +1,9 @@
+MODE = EXECUTE_MODE_REQUESTED
+STATUS = EXECUTE_SUCCESS
+SELECTED_RSCRIPT = /opt/homebrew/Caskroom/miniconda/base/envs/molevo/bin/Rscript
+PHYLOSEQ_AVAILABLE = TRUE
+PHYLOSEQ_VERSION = 1.54.0
+PHYLOSEQ_DIR = /opt/homebrew/Caskroom/miniconda/base/envs/molevo/lib/R/library/phyloseq
+RDATA_EXISTS = True
+TARGET_COMPONENT = Phylo_Objects/Species
+FINAL_TABLES_WRITTEN = yes

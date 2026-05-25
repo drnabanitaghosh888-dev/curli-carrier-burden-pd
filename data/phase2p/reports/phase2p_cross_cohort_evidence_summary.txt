@@ -1,0 +1,16 @@
+PHASE 2P CROSS-COHORT EVIDENCE SYNTHESIS
+
+Included datasets: WALLEN_DISCOVERY, INTEGRATED_US_MULTICOHORT_PD, MAO_CENTRAL_CHINA_PD, ROMANO_NONWALLEN.
+Wallen is treated as discovery evidence, not independent replication.
+Integrated-US is treated as independent processed-table replication.
+Mao Central China is treated as an external processed-table cohort with directional but non-significant support.
+Romano non-Wallen is treated as external multi-study support with cohort-sensitive robustness.
+
+- WALLEN_DISCOVERY: role=discovery; mean_direction=PD>HC; median_direction=PD>HC; decision=DISCOVERY_PD_ENRICHED_SIGNAL.
+- INTEGRATED_US_MULTICOHORT_PD: role=independent_replication; mean_direction=PD>HC; median_direction=PD>HC; decision=REPLICATED_DIRECTIONALLY_AND_STATISTICALLY.
+- MAO_CENTRAL_CHINA_PD: role=external_replication; mean_direction=PD>HC; median_direction=PD>HC; decision=DIRECTIONALLY_CONSISTENT_BUT_NOT_SIGNIFICANT.
+- ROMANO_NONWALLEN: role=external_replication_nonwallen; mean_direction=PD>HC; median_direction=PD>HC; decision=WEAK_COHORT_SENSITIVE_SUPPORT_NOT_DEFINITIVE_REPLICATION.
+
+Curli Carrier Burden shows recurrent PD-associated elevation across processed public cohorts, but the strength and robustness of association vary by cohort. Romano non-Wallen analysis provides directionally supportive but cohort-sensitive evidence, emphasizing the need for stratified and cohort-aware interpretation.
+
+Conservative final conclusion: the processed-table evidence is recurrent and directionally supportive, with one statistically significant independent replication and one cohort-sensitive multi-study support signal. This does not establish csg gene presence, curli expression, intact operon architecture, causality, or raw-read validation.

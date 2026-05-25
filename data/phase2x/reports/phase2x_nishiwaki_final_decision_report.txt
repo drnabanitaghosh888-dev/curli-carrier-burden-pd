@@ -1,0 +1,11 @@
+PHASE2X_NISHIWAKIH_2024_CCB_ANALYSIS
+status=PASS
+decision=MIXED_OR_NO_SUPPORT
+cohort=NishiwakiH_2024
+metadata_file=data/phase2t/manual_sources/duru_asapmac/asapmac_sampleMetadata_from_source.tsv
+hf_parquet_paths_file=data/phase2t/manual_sources/duru_asapmac/hf_parquet_paths.txt
+processed_abundance_resource=https://huggingface.co/datasets/waldronlab/metagenomics_mac/resolve/main/relative_abundance_uuid.parquet
+analysis_type=processed_relative_abundance_only
+causality_claimed=no
+diagnostic_biomarker_claimed=no
+interpretation=NishiwakiH_2024 provides an independent processed Japanese fecal metagenomic cohort for CCB testing.

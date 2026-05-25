@@ -1,0 +1,4 @@
+dataset_id	pdf_file	readable_locally	text_extraction_status	supplementary_tables_detected	embedded_files_detected	sample_level_species_abundance_identified	sample_level_metadata_identified	raw_sequence_accession_detected	raw_sequence_accession_used_in_phase2h	decision	notes
+NISHIWAKI_MULTICOUNTRY_PD	nishiwaki_2024_npj_parkinsons_article.pdf	yes	success	yes	no	no	no	yes	no	keep_pending	Readable article PDF; no downloadable sample-level processed table pointers identified in local inspection.
+NISHIWAKI_MULTICOUNTRY_PD	nishiwaki_2024_supplemental_material.pdf	yes	success	yes	no	no	no	yes	no	keep_pending	Supplementary tables present but no embedded downloadable processed abundance/metadata files.
+NISHIWAKI_MULTICOUNTRY_PD	nishiwaki_2024_reporting_summary.pdf	yes	success	yes	no	no	no	yes	no	keep_pending	Reporting summary readable; no sample-level processed-table matrix identified.

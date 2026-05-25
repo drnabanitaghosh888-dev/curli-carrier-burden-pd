@@ -1,0 +1,14 @@
+metric	value
+n_samples	78
+n_pd	39
+n_control	39
+burden_min	0.00396
+burden_median	2.02597
+burden_mean	5.720008717948717
+burden_max	37.73533
+pd_median_burden	2.08095
+control_median_burden	1.7096
+zero_fraction_case_pd	0.0
+zero_fraction_case_control	0.0
+n_burden_species	17
+status	PASS

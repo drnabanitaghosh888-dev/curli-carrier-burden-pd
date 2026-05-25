@@ -1,0 +1,6 @@
+STATUS = CANDIDATE_PUBLIC_PROCESSED_TABLES_FOUND
+N_METADATA_CANDIDATES = 3
+N_SMG_ABUNDANCE_CANDIDATES = 6
+READY_FOR_MANUAL_MAPPING_REVIEW = YES
+READY_FOR_ANALYSIS = NO_MAPPING_REQUIRED_FIRST
+NOTE = Romano Zenodo public processed SMG profiles and metadata are present. Select a non-overlapping cohort before analysis.

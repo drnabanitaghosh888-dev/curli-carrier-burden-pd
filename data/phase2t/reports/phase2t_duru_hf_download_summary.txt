@@ -1,0 +1,13 @@
+PHASE2T_DURU_ASAPMAC_HF_PROCESSED_DOWNLOAD
+status=REMOTE_RELATIVE_ABUNDANCE_FOUND_BUT_DURU_FILTER_RETURNED_ZERO
+hf_dataset=waldronlab/metagenomics_mac
+n_all_paths=56
+n_parquet_paths=55
+n_relative_abundance_candidate_files=2
+n_metadata_candidate_files=0
+n_duru_relative_abundance_rows=0
+study_like_columns_detected=none
+sample_like_columns_detected=NCBI_tax_id;uuid
+abundance_like_columns_detected=relative_abundance
+raw_reads_downloaded=no
+notes=This command uses ASAP-MAC/Hugging Face processed parquet resources only. It does not download ENA/SRA/FASTQ raw reads.

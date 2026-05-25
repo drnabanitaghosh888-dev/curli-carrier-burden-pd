@@ -1,0 +1,5 @@
+STATUS = PASS
+SOURCE_USED = data/phase2i/manual_sources/mao_central_china_pd/pmc_oa_package/PMC8506127
+DESTINATION = data/phase2i/manual_sources/mao_central_china_pd/supplementary_manual_verified
+N_TABLE_FILES_COPIED = 8
+N_VALID_XLSX = 8

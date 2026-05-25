@@ -1,0 +1,15 @@
+PHASE2O_ROMANO_MAPPING_REVIEW
+metadata_file=data/phase2o/manual_sources/romano_pd_ml_meta_2025/zenodo_extract/Metadata_All/Metadata/metadata.smg.txt
+motus_file=data/phase2o/manual_sources/romano_pd_ml_meta_2025/zenodo_extract/SMG_profiles/SMG/Taxonomy/mOTUs.txt
+metadata_shape=1324x5
+motus_shape=4965x1324
+metadata_id_column_used=SampleID
+n_metadata_id_column_candidates=1
+n_motus_sample_columns=1324
+n_matched_motus_samples=1324
+n_unmatched_motus_samples=0
+label_counts={'PD_candidate': 770, 'CONTROL_candidate': 554}
+READY_STATUS=READY_FOR_ANALYSIS
+
+TOP_METADATA_ID_COLUMN_CANDIDATES
+SampleID	score=5	n_accession_like_values=200

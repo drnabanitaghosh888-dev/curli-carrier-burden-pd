@@ -1,0 +1,11 @@
+column	missing_n	missing_fraction
+sample_name	0	0.0000
+Case_status	0	0.0000
+Age_at_collection	0	0.0000
+Sex	0	0.0000
+BMI	4	0.0055
+Day_of_stool_collection_constipation	85	0.1174
+Bristol_stool_chart	37	0.0511
+Day_of_stool_collection_diarrhea	66	0.0912
+Day_of_stool_collection_bloating	55	0.0760
+PD_binary	0	0.0000

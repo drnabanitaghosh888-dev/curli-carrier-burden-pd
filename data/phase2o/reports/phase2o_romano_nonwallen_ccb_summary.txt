@@ -1,0 +1,26 @@
+PHASE2O_ROMANO_NONWALLEN_CCB_ANALYSIS
+status=CCB_ANALYSIS_COMPLETE
+analysis_set=Romano_nonWallen_600
+candidate_source=data/000_phase2o_curli_reference/000_curli_candidate_species.tsv
+n_samples=600
+n_PD=280
+n_HC=320
+n_studies=6
+n_matched_curli_motus_taxa=29
+
+PD_median_CCB=0.0009723175474719
+HC_median_CCB=0.0005973792394655
+PD_mean_CCB=0.015280215740256559
+HC_mean_CCB=0.01035368425371369
+
+mannwhitney_raw_p=0.003624426519211219
+mannwhitney_log1p_p=0.003624426519211219
+cliffs_delta_raw=0.13739955357142858
+cliffs_delta_log1p=0.13739955357142858
+
+study_stratified_log1p_mean_difference_PD_minus_HC=0.00358135265925435
+study_stratified_permutation_p=0.19736052789442113
+n_permutations=5000
+
+Interpretation guide:
+A credible replication signal should show a consistent PD-vs-HC burden direction and should remain non-random under the study-stratified permutation test. The study-stratified result is more important than the pooled unadjusted Mann-Whitney test because Romano is a multi-cohort dataset.

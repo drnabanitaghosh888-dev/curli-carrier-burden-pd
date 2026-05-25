@@ -1,0 +1,7 @@
+PHASE2O_ROMANO_WITHIN_STUDY_CCB_EFFECTS
+n_studies=6
+n_studies_PD_gt_HC_by_mean=4
+n_studies_PD_gt_HC_by_median=3
+
+Interpretation:
+This report tests whether Curli Carrier Burden is consistently higher in PD than HC within individual non-Wallen Romano cohorts. Consistent direction across studies supports biological plausibility even if cohort-stratified permutation testing is not significant.

@@ -1,0 +1,6 @@
+model_id	comparison	predictor	role	planned	executed
+MWU_A	PD_vs_SP_controls	CurliCarrierBurden	mann_whitney_u	yes	yes
+LOGIT_B	PD_vs_SP_controls	CurliCarrierBurden_log1p	primary_unadjusted_logit	yes	yes
+PAIRED_C	PD_vs_SP_matched_pairs	CurliCarrierBurden	paired_wilcoxon	yes	yes
+PRESENCE_D	PD_vs_SP_controls	CurliCarrierPresence	presence_model_expected_skip_if_constant	yes	yes
+LOGIT_E	PD_vs_SP_controls	CurliCarrierBurden_log1p	sequencing_adjusted_sensitivity	yes	yes

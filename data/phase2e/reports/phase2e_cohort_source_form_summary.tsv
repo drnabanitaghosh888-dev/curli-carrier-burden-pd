@@ -1,0 +1,5 @@
+dataset_id	total_items	items_verified	species_table_verified	metadata_verified	pd_control_labels_verified	license_verified	run_accession_mapping_verified	ready_candidate_status	major_blocking_issue
+INTEGRATED_US_MULTICOHORT_PD	10	0	no	no	no	no	no	no	pending_manual_review
+MAO_CENTRAL_CHINA_PD	10	0	no	no	no	no	no	no	source_not_checked
+NISHIWAKI_MULTICOUNTRY_PD	10	0	no	no	no	no	no	no	source_not_checked
+PALACIOS_PRODROMAL_PD	10	0	no	no	no	no	no	no	source_not_checked

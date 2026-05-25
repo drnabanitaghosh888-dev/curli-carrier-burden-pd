@@ -1,0 +1,4 @@
+file	status	n_pages	keyword_hits	notes
+nishiwaki_2024_supplemental_material.pdf	readable	195	Supplementary Table;species;abundance;sample;Parkinson;PD;control;Japan;USA;Germany;China;Taiwan;DRA016410;available	backend=pypdf
+nishiwaki_2024_reporting_summary.pdf	readable	3		backend=pypdf
+nishiwaki_2024_npj_parkinsons_article.pdf	readable	11	Supplementary Table;species;abundance;relative abundance;MetaPhlAn;HUMAnN;metadata;sample;Parkinson;PD;control;Japan;USA;Germany;China;Taiwan;DRA016410;GitHub;available	backend=pypdf

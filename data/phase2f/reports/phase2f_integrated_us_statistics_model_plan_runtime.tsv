@@ -1,0 +1,8 @@
+model_id	comparison	predictor	role	planned	executed
+MWU_A	PD_vs_all_controls	CurliCarrierBurden	nonparametric	yes	yes
+LOGIT_B	PD_vs_all_controls	CurliCarrierBurden_log1p	primary_unadjusted	yes	yes
+LOGIT_C	PD_vs_all_controls	CurliCarrierBurden_log1p	primary_adjusted	yes	yes
+LOGIT_D	PD_vs_all_controls	CurliCarrierPresence	secondary_unadjusted	yes	yes
+LOGIT_E	PD_vs_all_controls	CurliCarrierPresence	secondary_adjusted	yes	yes
+LOGIT_F	PD_vs_PC_only	CurliCarrierBurden_log1p	sensitivity	yes	yes
+LOGIT_G	PD_vs_HC_only	CurliCarrierBurden_log1p	sensitivity	yes	yes

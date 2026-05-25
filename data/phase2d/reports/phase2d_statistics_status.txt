@@ -1,0 +1,2 @@
+PASS
+processed-table proxy statistics written; log1p burden is the primary regression predictor and presence is secondary; raw-read validation still required.

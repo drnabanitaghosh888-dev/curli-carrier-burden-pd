@@ -1,0 +1,5 @@
+STATUS = PASS
+N_SUCCESS = 7
+N_FAILED = 0
+N_SKIPPED = 0
+NOTES = all_models_success

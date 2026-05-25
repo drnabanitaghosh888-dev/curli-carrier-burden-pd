@@ -1,0 +1,3 @@
+WALLEN_PHASE2D_READINESS = READY
+WALLEN_PHASE3_READINESS = NOT_READY_RUN_ACCESSION_MAPPING_MISSING
+REASON = Wallen processed tables, metadata, and PD/control labels were extracted and validated. Run accession mapping remains unavailable and blocks Phase 3.

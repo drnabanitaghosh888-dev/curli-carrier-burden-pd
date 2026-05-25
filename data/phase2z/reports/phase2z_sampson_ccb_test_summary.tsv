@@ -1,0 +1,2 @@
+analysis_set	n_samples	n_PD	n_HC	n_matched_curli_taxa	PD_mean_CCB	HC_mean_CCB	PD_median_CCB	HC_median_CCB	effect_direction_mean	effect_direction_median	mannwhitney_U	mannwhitney_p	cliffs_delta	decision
+SampsonTR_2025_processed_species_like	216	88	128	1	0.0	0.0005959063411396977	0.0	0.0	HC>=PD	HC>=PD	5544.0	0.2425447697838522	-0.015625	MIXED_OR_NO_SUPPORT

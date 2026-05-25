@@ -1,0 +1,7 @@
+PHASE2T_DURU_GITHUB_METADATA_SEARCH
+status=GITHUB_DURU_METADATA_CANDIDATES_FOUND
+n_candidate_files=346
+candidate_report=data/phase2t/manual_sources/duru_asapmac/github_metadata_search/github_duru_metadata_candidates.tsv
+downloaded_candidate_files=346
+raw_reads_downloaded=no
+notes=This searches repository text/metadata files only. It does not download ENA/SRA/FASTQ raw reads.

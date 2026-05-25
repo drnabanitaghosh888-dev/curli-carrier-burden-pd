@@ -1,0 +1,14 @@
+study_name	n_total	n_PD	n_HC	body_site_values	target_condition_values	control_values	country_values_if_available	has_uuid	already_analyzed	priority	recommended_next_action
+NishiwakiH_2024	167	94	73	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	not_available	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+MazmanianS_DeCastroFonsecaM_2	158	92	66	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	USA	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+SampsonTR_2025	216	88	128	fecal material [ENVO:00002003]	Parkinson Disease	Case; Study Control	North America; USA; USA: Alabama	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+MazmanianS_DeCastroFonsecaM_5	60	30	30	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	not_available	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+MazmanianS_SchonhoffA	46	24	22	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	USA	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+MazmanianS_DeCastroFonsecaM_1	50	20	30	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	USA	yes	no	high	prioritize_for_existing_processed_relative_abundance_uuid_workflow
+WallenZD_2022	724	490	234	UBERON:0001988; fecal material [ENVO:00002003]; feces	Parkinson Disease	Case; Study Control	North America; USA; USA: Alabama; USA: Florida; USA: Georgia; USA: Louisiana; USA: Mississippi; USA: Oklahoma; USA: South Carolina; USA: Tennessee; USA: Texas	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Wallen
+BoktorJC_2023	310	103	207	UBERON:0001988; UBERON:feces; control blank; feces	Parkinson Disease	Case; External Comparison Group; Internal Comparison Group; Multiple System Atrophy; Study Control	North America; USA; USA:CO\,Denver	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Integrated-US
+JoS_2022	156	82	74	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	Korea: Seoul; uncalculated	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Romano
+DuruIC_2024	134	68	66	UBERON:0001988; feces; human feces	Parkinson Disease	Case; Study Control	Europe; Finland	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:DuruIC_2024
+QianY_2020	80	40	40	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	Asia; China	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Romano
+MaoL_2021	78	39	39	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	China	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Mao
+BedarfJR_2017	59	31	28	UBERON:0001988; feces	Parkinson Disease	Case; Study Control	Germany	yes	yes	already_analyzed	do_not_prioritize_already_analyzed:Romano

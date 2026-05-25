@@ -1,0 +1,7 @@
+PHASE 2C FINAL STATUS = COMPLETE_WITH_WARNINGS
+
+Reason:
+Wallen processed tables were extracted and validated for Phase 2D processed-table discovery analysis. PD/control labels were verified as PD = 490 and Control = 234. Sample IDs match across metadata, species, genus, gene-family, and pathway tables. Replication cohorts remain pending manual verification. Wallen run-accession mapping remains unavailable, so Phase 3 raw-read subset selection is blocked.
+
+Next step:
+Proceed to Phase 2D Wallen processed-table discovery analysis only. Do not start Phase 3 until run accession mapping is verified.

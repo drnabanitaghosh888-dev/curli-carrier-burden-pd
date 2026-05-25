@@ -1,0 +1,13 @@
+metric	value
+status	PASS
+primary_candidate_rows_before_dedup	70
+unique_burden_species_after_dedup	31
+duplicated_candidate_rows_collapsed	39
+exact_or_binomial_rows_used	70
+genus_fallback_rows_excluded	64
+no_match_rows_excluded	181
+n_samples	724
+burden_min	0.000000
+burden_median	0.044533
+burden_max	57.592950
+interpretation_note	processed-table proxy only; not gene/operon proof

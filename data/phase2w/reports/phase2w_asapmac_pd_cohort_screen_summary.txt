@@ -1,0 +1,13 @@
+PHASE 2W ASAP-MAC PD COHORT SCREEN
+status=PASS
+metadata_file=data/phase2t/manual_sources/duru_asapmac/asapmac_sampleMetadata_from_source.tsv
+hf_parquet_paths_file=data/phase2t/manual_sources/duru_asapmac/hf_parquet_paths.txt
+n_metadata_rows=3535
+n_fecal_pd_or_hc_rows=3534
+n_pd_related_fecal_candidate_studies=19
+n_eligible_studies_min_PD_20_min_HC_20=13
+n_not_yet_analyzed_eligible_studies=6
+Nishiwaki present: NishiwakiH_2024
+ChenS_2022/Taiwan-like study not found in eligible or candidate PD fecal studies.
+ccb_computed=no
+recommended_use=screening_only_then_manual_selection_for_processed_uuid_abundance_workflow

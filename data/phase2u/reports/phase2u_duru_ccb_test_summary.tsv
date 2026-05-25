@@ -1,0 +1,2 @@
+analysis_set	n_samples	n_PD	n_HC	n_matched_curli_taxa	PD_mean_CCB	HC_mean_CCB	PD_median_CCB	HC_median_CCB	effect_direction_mean	effect_direction_median	mannwhitney_U	mannwhitney_p	cliffs_delta
+DuruIC_2024_processed_species_like	134	68	66	42	1.18173761670171	1.1663082786974774	0.1546256682939892	0.035308735791346996	PD>HC	PD>HC	2474.0	0.3068629731125556	0.10249554367201426

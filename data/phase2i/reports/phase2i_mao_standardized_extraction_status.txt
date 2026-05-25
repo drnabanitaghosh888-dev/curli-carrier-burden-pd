@@ -1,0 +1,4 @@
+MODE = EXECUTE
+STATUS = PASS
+N_VALID_XLSX_SOURCES = 3
+SOURCE_USED = /Users/krishnendu/Documents/NG_work2/curli_vag_pd/data/phase2i/manual_sources/mao_central_china_pd/supplementary_manual_verified

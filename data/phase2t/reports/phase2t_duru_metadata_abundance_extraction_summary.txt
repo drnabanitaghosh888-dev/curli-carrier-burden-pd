@@ -1,0 +1,13 @@
+PHASE2T_DURU_METADATA_AND_ABUNDANCE_EXTRACTION
+status=DURU_METADATA_READY
+metadata_file=data/phase2t/manual_sources/duru_asapmac/asapmac_sampleMetadata_from_source.tsv
+n_all_metadata_rows=3535
+n_duru_metadata_rows=134
+n_duru_unique_uuid=134
+phenotype_counts={'PD': 68, 'HC': 66}
+n_relative_abundance_rows=152305
+n_species_like_relative_abundance_rows=85209
+uuid_column_used=uuid
+body_site_columns_detected=body_site;body_site_ontology_term_id;AsnicarF_2021_uncurated_body_site;BedarfJR_2017_uncurated_body_site;BoktorJC_2023_uncurated_sample_type;BoktorJC_2023_uncurated_host_body_site;MaoL_2021_uncurated_body_site
+raw_reads_downloaded=no
+notes=This extraction uses package-source sampleMetadata and Hugging Face processed relative_abundance only. No ENA/SRA/FASTQ raw reads were downloaded.

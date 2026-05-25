@@ -1,0 +1,9 @@
+PHASE2T_DURU_HF_PARQUET_METADATA_SCAN
+status=HF_PARQUET_SCAN_COMPLETE
+n_parquet_files_scanned=56
+n_candidate_metadata_files=10
+schema_scan=data/phase2t/manual_sources/duru_asapmac/hf_parquet_schema_scan.tsv
+candidate_file_report=data/phase2t/manual_sources/duru_asapmac/hf_duru_metadata_candidate_files.tsv
+preview_directory=data/phase2t/manual_sources/duru_asapmac/schema_previews
+raw_reads_downloaded=no
+notes=This is a lightweight schema/preview scan of processed Hugging Face parquet files only.

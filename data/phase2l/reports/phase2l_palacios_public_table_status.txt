@@ -1,0 +1,5 @@
+STATUS = PUBLIC_SAMPLE_LEVEL_TABLES_NOT_IDENTIFIED
+READY_FOR_MANUAL_EXTRACTION_REVIEW = NO
+READY_FOR_ANALYSIS = NO
+BLOCKING_ISSUE = sample_level_species_abundance_and_metadata_not_identified_publicly
+NOTE = Palacios data likely require dbGaP/NHS/HPFS authorized access for sample-level analysis.

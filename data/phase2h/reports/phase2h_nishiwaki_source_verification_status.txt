@@ -1,0 +1,8 @@
+DATASET_ID = NISHIWAKI_MULTICOUNTRY_PD
+PHASE = PHASE_2H_D
+SOURCE_VERIFICATION_STATUS = PARTIAL_EVIDENCE_PROCESSED_TABLES_NOT_IDENTIFIED
+READY_FOR_MANUAL_DOWNLOAD = NO
+READY_FOR_PROCESSED_REPLICATION_ANALYSIS = NO
+READY_FOR_RAW_READ_VALIDATION = NO
+BLOCKING_ISSUE = processed_species_abundance_and_sample_metadata_not_identified
+NOTES = Publication/supplementary PDFs verified locally; processed sample-level species abundance and sample metadata files not identified.

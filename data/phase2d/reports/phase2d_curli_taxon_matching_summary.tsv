@@ -1,0 +1,5 @@
+matching_method	count
+no_match	181
+genus_fallback_exploratory	64
+binomial_species_match	40
+exact_species_match	30

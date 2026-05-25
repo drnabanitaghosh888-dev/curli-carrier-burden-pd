@@ -1,0 +1,8 @@
+metric	value
+n_cohorts	4
+n_pending_manual_source_check	4
+n_ready_for_manual_download	0
+n_ready_for_processed_replication_analysis	0
+n_ready_for_raw_read_validation	0
+blocking_issue::source_and_license_not_verified	3
+blocking_issue::unclear_source_identity	1
