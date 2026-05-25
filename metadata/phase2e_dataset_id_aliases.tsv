@@ -1,0 +1,2 @@
+old_dataset_id	canonical_dataset_id	reason	date_corrected	notes
+INTEGRATED_US_MULTICOOHORT_PD	INTEGRATED_US_MULTICOHORT_PD	spelling_correction	2026-05-18	previous Integrated-US SOURCE_IDENTITY_UNCLEAR verdict is superseded and must be rerun after canonicalization

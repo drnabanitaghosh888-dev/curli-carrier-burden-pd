@@ -1,0 +1,316 @@
+taxon_name	n_curli_reference_sequences	n_csgA	n_csgB	n_csgC	n_csgD	n_csgE	n_csgF	n_csgG	has_reliable_core_markers	has_cautious_markers	curli_candidate_confidence	notes
+Escherichia coli	126	18	22	20	16	13	17	20	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica	117	17	14	13	32	13	10	18	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica I	40	3	6	5	4	8	4	10	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter cloacae	35	9	7	9	3	2	2	3	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter amalonaticus	26	5	4	3	3	4	3	4	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. arizonae	24	5	7	2	2	3	4	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter asburiae	21	3	4	6	1	5	0	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter portucalensis	20	3	5	3	2	4	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhimurium	17	1	4	1	4	4	1	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter freundii	16	3	3	7	0	2	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Leclercia adecarboxylata	16	3	3	3	1	2	3	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter hormaechei	15	3	4	3	0	2	0	3	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera intermedia	15	0	0	4	5	2	3	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enteritidis	15	3	1	2	5	1	1	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter kobei	13	1	1	3	2	2	2	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli (strain K12)	13	2	1	1	5	2	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera ascorbata	13	0	0	2	5	2	2	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudenterobacter timonensis	13	2	2	2	2	2	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella flexneri	13	2	3	4	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter cancerogenus	12	2	3	2	1	1	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter mori	12	2	1	2	2	1	2	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter bugandensis	11	2	2	2	1	1	1	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter roggenkampii	11	0	2	4	1	2	0	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella diarizonae	11	2	3	0	1	3	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter werkmanii	10	1	1	2	2	2	2	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter ludwigii	10	1	2	2	1	1	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter wuhouensis	10	2	2	1	1	2	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Lelliottia amnigena	10	2	2	1	1	2	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Heidelberg	10	0	1	0	8	0	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Hafnia alvei	9	2	1	3	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera cryocrescens	9	2	0	2	2	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kosakonia sacchari	9	2	2	2	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella dysenteriae	9	1	2	1	1	1	1	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Atlantibacter subterraneus	8	1	1	1	1	2	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter huaxiensis	8	1	2	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera genomosp. 3	8	0	0	2	3	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella izardii	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella warmboldiae	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter arsenatis	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter cronae	7	1	1	2	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter pasteurii	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter telavivensis	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter dykesii	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter soli	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kosakonia quasisacchari	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Lelliottia nimipressuralis	7	1	1	1	1	1	2	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Lelliottia wanjuensis	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella boydii	7	1	2	0	0	0	2	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Silvania confinis	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Silvania hatchlandensis	7	1	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Atlantibacter hermannii NBRC 105704	6	1	1	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella gaviniae	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella selenatireducens	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Cedecea davisae	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter enshiensis	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter farmeri	6	1	1	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter koseri	6	1	1	2	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter meridianamericanus	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter sedlakii	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter turicensis (strain DSM 18703 / CCUG 55852 / LMG 23827 / z3032)	6	1	1	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Dryocola boscaweniae	6	0	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter chinensis	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter chuandaensis	6	1	1	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter hormaechei subsp. hoffmannii	6	1	1	1	1	0	0	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter nematophilus	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter sichuanensis	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia fergusonii	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia marmotae	6	1	0	1	0	1	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia whittamii	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Ewingella americana	6	0	0	2	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Hafnia paralvei	6	0	0	2	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera sichuanensis	6	0	0	1	3	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Kosakonia calanthes	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Leclercia barmai	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Leclercia pneumoniae	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Leclercia tamurae	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Phytobacter palmae	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Phytobacter ursingii	6	1	1	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rouxiella sp. WC2420	6	1	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella bongori	6	1	1	1	1	0	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. VII serovar 40:z4,z24:[z39]	6	1	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhi	6	0	2	0	1	0	2	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Scandinavium lactucae	6	0	1	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Cedecea colo	5	0	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter bitternis	5	1	1	1	1	1	0	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter rodentium	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter tructae	5	1	1	1	1	0	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter cloacae subsp. cloacae (strain ATCC 13047 / DSM 30054 / NBRC 13535 / NCTC 10005 / WDCM 00083 / NCDC 279-56)	5	1	0	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter intestinihominis	5	1	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter pasteurii	5	0	1	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter pseudoroggenkampii	5	1	1	1	1	1	0	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter quasimori	5	1	1	1	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter rongchengensis	5	1	1	1	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia ruysiae	5	1	1	0	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Franconibacter daqui	5	1	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Leminorella grimontii	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Limnobaculum eriocheiris	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Limnobaculum xujianqingii	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudescherichia vulneris NBRC 102420	5	1	1	1	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella contaminans	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella sp. (strain Y9602)	5	1	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella woolbedingensis	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rouxiella aceris	5	0	0	1	1	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Kentucky	5	1	0	0	0	0	2	2	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Napoli	5	1	1	1	0	1	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella gallinarum	5	1	2	0	1	0	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Shimwellia blattae (strain ATCC 29907 / DSM 4481 / JCM 1650 / NBRC 105725 / CDC 9005-74)	5	1	0	1	0	1	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter gillenii	4	1	0	0	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter cloacae complex sp. Mu1197	4	0	1	1	0	1	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter hormaechei subsp. steigerwaltii	4	0	1	1	1	0	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia albertii	4	1	1	0	1	0	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Limnobaculum zhutongyuii	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Phytobacter diazotrophicus	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudocitrobacter corydidari	4	0	1	1	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella bonaserana	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella inusitata	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella perminowiae	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella victoriana	4	0	0	1	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella infantis	4	1	0	0	1	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhimurium (strain SL1344)	4	0	0	1	1	2	0	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella sonnei	4	0	1	1	1	0	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O25b:H4-ST131	3	0	1	0	0	0	1	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CCUG 18766 / IAM 14443 / JCM 21226 / LMG 7866 / NBRC 102419 / NCTC 12128 / CDC 0568-73)	3	0	1	0	0	1	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Plesiomonas shigelloides	3	0	1	0	1	1	0	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Rouxiella chamberiensis	3	0	0	1	1	0	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Bareilly	3	0	1	0	1	0	0	1	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella gallinarum (strain 287/91 / NCTC 13346)	3	1	0	0	0	1	1	0	yes	yes	high	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella agrestis	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter cloacae subsp. cloacae	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter genomosp. O	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter hormaechei subsp. xiangfangensis	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli (strain ATCC 9637 / CCM 2024 / DSM 1116 / LMG 11080 / NBRC 13500 / NCIMB 8666 / NRRL B-766 / W)	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli 1-250-04_S3_C1	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O121	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O139:H28 (strain E24377A / ETEC)	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC)	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O1:K1 / APEC	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O6	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O6:K15:H31 (strain 536 / UPEC)	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O8	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O81 (strain ED1a)	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Ewingella americana (strain ATCC 33852 / DSM 4580 / CCUG 14506 / JCM 5911 / LMG 7869 / NCTC 12157 / CDC 1468-78)	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Franconibacter pulveris	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Gallaecimonas pentaromativorans	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Kluyvera genomosp. 2	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Kosakonia pseudosacchari	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Limnobaculum parvum	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Obesumbacterium proteus ATCC 12841	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Plesiomonas shigelloides 302-73	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella aquatilis (strain ATCC 33071 / DSM 4594 / JCM 1683 / NBRC 105701 / NCIMB 13365 / CIP 78.65)	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella sikkimica	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella anatum	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella bongori serovar 44:r:-	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. arizonae serovar 18:z4,z23:- str. CVM N26626	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar 6,7:c:1,5	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Adelaide str. A4-669	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Altona	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Crewe	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Duisburg	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Eastbourne	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Eko	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Give	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Havana	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Hofit	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Hvittingfoss	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Kouka	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Montevideo str. S5-403	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Ohio	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Poona	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Rubislaw str. A4-653	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Senftenberg str. A4-543	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Strasbourg	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Urbana str. R8-2977	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Uzaramo	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. indica serovar 45:a:e,n,x	1	0	0	1	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. salamae serovar 42:z:1,5	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella rubislaw	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhimurium (strain 14028s / SGSC 2262)	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhisuis	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella flexneri 2a str. 301	1	1	0	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella flexneri serotype 5a (strain M90T)	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella flexneri serotype 5b (strain 8401)	1	0	1	0	0	0	0	0	no	yes	low	processed-table triage proxy only; not proof of expression or operon integrity
+Cedecea neteri	7	1	3	3	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella pneumoniae	7	0	0	0	7	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. salamae	6	0	3	1	2	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)	6	0	0	0	3	1	1	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Java	5	0	2	0	3	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter braakii	4	1	1	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter youngae	4	1	1	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter agglomerans	4	1	1	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. indica	4	1	1	1	0	1	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella houtenae	4	1	1	1	0	0	1	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Scandinavium goeteborgense	4	1	2	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Yokenella regensburgei	4	1	1	2	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+uncultured Citrobacter sp	4	0	2	1	0	1	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cedecea davisae DSM 4568	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter koseri (strain ATCC BAA-895 / CDC 4225-83 / SGSC4696)	3	1	1	0	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter rodentium (strain ICC168)	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter dublinensis 1210	3	1	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter malonaticus	3	1	0	2	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter chengduensis	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter quasiroggenkampii	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Enterobacter vonholyi	3	0	1	1	0	0	1	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli DORA_A_5_14_21	3	0	2	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O145:H28 (strain RM12581)	3	0	1	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Kosakonia oryziphila	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Lelliottia aquatilis	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Limnobaculum allomyrinae	3	0	0	0	1	1	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Phytobacter massiliensis	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudocitrobacter cyperus	3	0	1	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella ecdela	3	0	0	0	1	1	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Typhi str. CT18	3	0	0	0	1	0	0	2	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella paratyphi A	3	0	0	0	1	0	0	2	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Scandinavium hiltneri	3	0	1	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Siccibacter turicensis	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Trabulsiella guamensis ATCC 49490	3	1	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Trabulsiella odontotermitis	3	1	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella agrestis ATCC 33320	2	0	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella brennerae ATCC 51605	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella ferragutiae ATCC 51602	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella gaviniae ATCC 51604	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Buttiauxella noackiae ATCC 51607	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter amalonaticus Y19	2	0	1	0	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter europaeus	2	1	0	0	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter condimenti 1330	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter universalis NCTC 9529	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli (strain 55989 / EAEC)	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli (strain SMS-3-5 / SECEC)	2	0	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli DEC2D	2	0	0	1	0	0	1	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli EC1870	2	0	0	0	0	0	1	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli H386	2	1	1	0	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli H605	2	0	1	0	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O145	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O157:H7	2	1	0	0	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O44:H18 (strain 042 / EAEC)	2	1	0	0	0	0	1	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O7:K1 (strain IAI39 / ExPEC)	2	1	1	0	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O83:H1 (strain NRG 857C / AIEC)	2	0	0	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Hafnia alvei ATCC 51873	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Hafnia alvei FB1	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella oxytoca	2	0	0	0	2	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella quasipneumoniae	2	0	0	0	2	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudocitrobacter faecalis	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Pseudocitrobacter vendiensis	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Raoultella terrigena	2	0	0	0	2	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella arizonae (strain ATCC BAA-731 / CDC346-86 / RSK2980)	2	0	0	1	0	1	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella choleraesuis (strain SC-B67)	2	0	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella derby	2	0	0	0	2	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. arizonae serovar 41:z4,z23:-	2	1	1	0	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar 4,[5],12:i:-	2	0	1	0	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Bovismorbificans	2	1	0	0	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Chester	2	0	1	0	0	0	1	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Daytona	2	1	1	0	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Denver	2	0	0	1	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Indiana	2	1	0	0	0	1	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Pomona	2	0	0	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Sandiego	2	0	1	0	1	0	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Sanjuan	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Schwarzengrund	2	0	0	0	0	2	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Shamba	2	0	1	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. houtenae serovar 45:g,z51:-	2	0	1	0	0	1	0	0	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. indica serovar 6,14,25:z10:1,(2),7 str. 1121	2	0	0	1	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. salamae serovar 42:r:-	2	0	0	0	1	0	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. salamae serovar 48:d:z6	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella montevideo	2	1	0	0	0	0	0	1	yes	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella sonnei (strain Ss046)	2	1	0	1	0	0	0	0	no	yes	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Citrobacter youngae ATCC 29220	1	0	0	0	0	0	0	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Cronobacter sakazakii	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Edwardsiella tarda (strain FL6-60)	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Erwinia amylovora (strain CFBP1430)	1	0	0	0	0	0	0	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Erwinia billingiae (strain Eb661)	1	0	0	0	0	0	0	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia albertii (strain TW07627)	1	0	0	0	0	0	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli 2-460-02_S1_C1	1	0	0	0	0	0	0	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O127:H6 (strain E2348/69 / EPEC)	1	0	0	0	0	0	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O145:NM	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Escherichia coli O45:K1 (strain S88 / ExPEC)	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella aerogenes	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella michiganensis	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella pneumoniae IS43	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella quasivariicola	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Klebsiella variicola	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Pluralibacter gergoviae	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Rahnella laticis	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella abortus-equi	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella bongori N268-08	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella dublin	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. arizonae serovar 18:z4,z23:-	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. arizonae serovar 18:z4,z32:-	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Abeokuta	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Adelaide	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Braenderup	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Choleraesuis	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Durban	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Infantis str. CFSAN000522	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Kiambu	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar London	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Meleagridis	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Newport str. WA_14882	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Orion	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000540	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Reading	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Rough O:-:-	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Sendai	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Typhimurium var. 5-	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Vitkin	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. enterica serovar Weslaco	1	0	0	0	0	1	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enterica subsp. salamae serovar 47:b:1,5	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella enteritidis PT4 (strain P125109)	1	0	0	0	0	0	0	1	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella hadar	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella moscow	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella muenchen	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella paratyphi B	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella paratyphi C (strain RKS4594)	1	0	0	0	0	0	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Salmonella virchow	1	0	0	0	1	0	0	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity
+Shigella flexneri K-315	1	0	0	0	0	0	1	0	yes	no	medium	processed-table triage proxy only; not proof of expression or operon integrity

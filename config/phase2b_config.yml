@@ -1,0 +1,34 @@
+threads: 4
+allow_external_downloads: false
+allow_fastq_downloads: false
+allow_sra_downloads: false
+allow_raw_metagenomic_processing: false
+phase1_reference_package: "results/phase1_reference_package/"
+phase1_metadata: "results/phase1_reference_package/curli_reference_metadata.tsv"
+phase1_hmm_validation: "results/phase1_reference_package/hmm_validation_summary.tsv"
+preferred_processed_table_types:
+  - species_abundance
+  - genus_abundance
+  - pathway_abundance
+  - gene_family_abundance
+  - sample_metadata
+  - run_accession_mapping
+minimum_dataset_requirements:
+  sequencing_type: "shotgun_metagenomics"
+  disease_context: "Parkinson_disease"
+  sample_type: "stool_or_fecal"
+  requires_pd_control_status: true
+  requires_sample_metadata: true
+curli_gene_interpretation:
+  reliable:
+    - csgD
+    - csgE
+    - csgF
+    - csgG
+  cautious:
+    - csgA
+    - csgB
+    - csgC
+  combined_modules:
+    csgAB: "structural_nucleator_module_due_to_crossreactivity"
+    csgCE: "accessory_module_due_to_partial_crossreactivity"

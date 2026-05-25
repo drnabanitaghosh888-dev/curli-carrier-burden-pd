@@ -1,0 +1,41 @@
+csgA:
+  role: "major curli structural subunit"
+  importance_weight: 2
+  expected_length_range_aa: [80, 250]
+  essential_for_functional_score: true
+
+csgB:
+  role: "curli nucleator"
+  importance_weight: 2
+  expected_length_range_aa: [80, 250]
+  essential_for_functional_score: true
+
+csgC:
+  role: "periplasmic chaperone / anti-amyloid accessory factor"
+  importance_weight: 1
+  expected_length_range_aa: [70, 180]
+  essential_for_functional_score: false
+
+csgD:
+  role: "transcriptional regulator of curli operon"
+  importance_weight: 2
+  expected_length_range_aa: [150, 350]
+  essential_for_functional_score: true
+
+csgE:
+  role: "curli assembly accessory factor"
+  importance_weight: 1
+  expected_length_range_aa: [70, 200]
+  essential_for_functional_score: false
+
+csgF:
+  role: "curli assembly accessory factor"
+  importance_weight: 1
+  expected_length_range_aa: [70, 220]
+  essential_for_functional_score: false
+
+csgG:
+  role: "outer membrane secretion pore"
+  importance_weight: 2
+  expected_length_range_aa: [180, 400]
+  essential_for_functional_score: true

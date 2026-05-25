@@ -1,0 +1,36 @@
+curli_genes:
+  csgA:
+    role: "major curli fiber subunit"
+    weight: "high"
+    core_score: true
+    operon_completeness: true
+  csgB:
+    role: "nucleator protein for CsgA polymerization"
+    weight: "high"
+    core_score: true
+    operon_completeness: true
+  csgC:
+    role: "periplasmic chaperone/anti-aggregation factor"
+    weight: "moderate"
+    core_score: false
+    operon_completeness: true
+  csgD:
+    role: "transcriptional regulator of curli and biofilm genes"
+    weight: "high"
+    core_score: true
+    operon_completeness: true
+  csgE:
+    role: "secretion/assembly accessory protein"
+    weight: "moderate"
+    core_score: false
+    operon_completeness: true
+  csgF:
+    role: "curli assembly accessory protein and CsgB localization factor"
+    weight: "moderate"
+    core_score: false
+    operon_completeness: true
+  csgG:
+    role: "outer membrane secretion pore for curli subunits"
+    weight: "high"
+    core_score: true
+    operon_completeness: true

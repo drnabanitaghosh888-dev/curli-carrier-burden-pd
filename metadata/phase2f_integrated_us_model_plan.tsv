@@ -1,0 +1,8 @@
+model_id	comparison	model_family	formula	predictor_priority	covariates	planned_for_execute	notes
+MWU_A	PD_vs_all_controls	nonparametric	CurliCarrierBurden ~ Case_status	primary	none	yes	Mann-Whitney U test
+LOGIT_B	PD_vs_all_controls	logistic	PD_binary ~ CurliCarrierBurden_log1p	primary	none	yes	Primary unadjusted burden model
+LOGIT_C	PD_vs_all_controls	logistic	PD_binary ~ CurliCarrierBurden_log1p + host_age + sex + host_body_mass_index	primary	host_age;sex;host_body_mass_index	yes	Primary adjusted burden model
+LOGIT_D	PD_vs_all_controls	logistic	PD_binary ~ CurliCarrierPresence	secondary	none	yes	Secondary unadjusted presence model
+LOGIT_E	PD_vs_all_controls	logistic	PD_binary ~ CurliCarrierPresence + host_age + sex + host_body_mass_index	secondary	host_age;sex;host_body_mass_index	yes	Secondary adjusted presence model
+LOGIT_F	PD_vs_PC_only	logistic	PD_binary ~ CurliCarrierBurden_log1p + host_age + sex + host_body_mass_index	primary	host_age;sex;host_body_mass_index	yes	Sensitivity subset: donor_group in PD,PC
+LOGIT_G	PD_vs_HC_only	logistic	PD_binary ~ CurliCarrierBurden_log1p + host_age + sex + host_body_mass_index	primary	host_age;sex;host_body_mass_index	yes	Sensitivity subset: donor_group in PD,HC

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this repository and the associated manuscript."
+title: "Curli Carrier Burden analysis for Parkinson's disease gut microbiomes"
+authors:
+  - family-names: Ghosh
+    given-names: Nabanita
+  - family-names: Sinha
+    given-names: Krishnendu
+version: 1.0.0
+date-released: 2026-05-25
+license: MIT

@@ -1,0 +1,19 @@
+name: curli_vag_pd
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - biopython
+  - pandas
+  - numpy
+  - requests
+  - pyyaml
+  - tqdm
+  - pytest
+  - mafft
+  - hmmer
+  - seqkit
+  - cd-hit
+  - blast
+  - diamond

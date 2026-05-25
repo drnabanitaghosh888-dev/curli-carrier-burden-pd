@@ -1,0 +1,81 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+molevo/
+*.conda
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+*.before_*
+nohup.out
+
+# Large or controlled data - DO NOT UPLOAD
+data/raw/
+data/**/manual_sources/
+data/**/downloads/
+data/**/extracted/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.cram
+*.sra
+*.h5
+*.h5ad
+*.parquet
+
+# Controlled-access / private metadata
+*FoxDEN*
+*Stagman*
+*Stagaman*
+*survey*
+*metadata.smg.txt
+
+# LaTeX auxiliary
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Extra project-specific exclusions
+Table_1.XLSX
+Table_2.XLSX
+Table_3.XLSX
+manuscript_backup_before_format_fix_*/
+manuscript_for_chatgpt_editing.zip
+curli_vagal_pd_ccb_revised_latex_source.zip
+curli_vagal_pd_ccb_revised_manuscript.pdf
+curli_vagal_pd_ccb_revised_manuscript.tex
+
+# Avoid committing whole data/results trees by default
+data/
+results/
+
+# Allow only selected public, small report summaries if later force-added manually
+!data/
+!data/**/
+!data/**/reports/
+!data/**/reports/*.tsv
+!data/**/reports/*.txt
+!data/**/reports/*.csv
+!data/**/reports/*.png
+!data/**/reports/*.pdf

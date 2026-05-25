@@ -1,0 +1,12 @@
+status	meaning	allowed_context	blocks_phase2d	blocks_phase3	notes
+available	resource confirmed present and usable	tables,metadata,mapping	no	no	use only after provenance check
+not_available	verified not currently available	table_metadata_accession_status	context_dependent	context_dependent	for run_accession_mapping_status this blocks Phase 3 but not Phase 2D
+unknown_pending_manual_check	resource not yet manually verified	tables,metadata,mapping	yes	yes	default state before verification
+candidate_pending_manual_verification	candidate cohort/resource pending validation	cohort_level,resource_level	yes	yes	do not treat as ready
+restricted_access	resource exists but not currently usable due to access terms	tables,metadata,mapping	yes	yes	requires permissions/license resolution
+not_applicable	resource not required in this context	resource-level	no	no	use sparingly with explicit rationale
+pending	readiness decision pending completion of checks	readiness flags	yes	yes	used for ready_for_phase2d/phase3 fields before evidence is complete
+priority_manual_verification_required	high-priority dataset requires immediate manual provenance/table verification	manual_verification_status	yes	yes	used for discovery anchor before evidence is confirmed
+yes	ready/available for the specified downstream phase	readiness_flags	no	no	used for ready_for_phase2d_processed_analysis or ready_for_phase3_raw_read_subset_selection only when required evidence is available
+no	not ready for the specified downstream phase	readiness_flags	yes	yes	used when evidence is absent or criteria fail
+wallen_processed_tables_verified_phase2d_ready	Wallen processed tables, metadata, and PD/control labels have been verified and standardized for Phase 2D	manual_verification_status	no	yes	Phase 3 remains blocked until run accession mapping is available

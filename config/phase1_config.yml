@@ -1,0 +1,33 @@
+threads: 4
+max_sequences_per_gene: 1000
+min_sequences_per_gene_warning: 30
+deduplicate_identity: 1.0
+cluster_identity_for_hmm_training: 0.95
+allowed_taxonomic_scope:
+  - Enterobacterales
+priority_taxa:
+  - Escherichia coli
+  - Escherichia albertii
+  - Salmonella enterica
+  - Klebsiella pneumoniae
+  - Klebsiella oxytoca
+  - Enterobacter cloacae
+  - Citrobacter freundii
+  - Citrobacter koseri
+  - Shigella flexneri
+  - Shigella sonnei
+sequence_quality:
+  max_fraction_X: 0.05
+  remove_fragments: true
+  remove_partial: true
+validation:
+  evalue_threshold: 1e-20
+  coverage_threshold: 0.50
+  positive_control_taxa:
+    - Escherichia coli
+    - Salmonella enterica
+  negative_control_gene_families:
+    - fimA
+    - fliC
+    - rpoB
+    - gyrB

@@ -1,0 +1,36 @@
+BMC Microbiology Submission Checklist - Curli Carrier Burden manuscript
+
+Manuscript files prepared:
+[ ] manuscript/bmc_microbiology_curli_vagal_pd_manuscript.tex
+[ ] manuscript/references.bib
+[ ] manuscript/tables/table1_datasets.tex
+[ ] manuscript/tables/table2_cross_cohort_evidence.tex
+[ ] manuscript/tables/table3_romano_robustness.tex
+[ ] manuscript/figure_captions_bmc_microbiology.tex
+[ ] manuscript/cover_letter_bmc_microbiology.tex
+[ ] manuscript/apc_waiver_request_bmc_microbiology.tex
+
+Before submission, complete these placeholders:
+[ ] Author names and affiliations
+[ ] Corresponding author email and address
+[ ] Funding statement
+[ ] Competing interests confirmation
+[ ] Author contributions
+[ ] Dataset-specific acknowledgements
+[ ] Permanent repository URL or archive DOI
+[ ] Verified BMC-compliant references replacing TODO BibTeX placeholders
+[ ] Figure image files, if submitting figures
+[ ] Journal word-count, formatting, and reference style checks
+
+Scientific interpretation checks:
+[ ] Manuscript states CCB is a processed-table taxon-informed proxy
+[ ] Manuscript does not claim a causal disease mechanism
+[ ] Manuscript does not claim clinical marker or prediction utility
+[ ] Manuscript does not claim csg gene, expression, operon, or raw-read validation
+[ ] Romano is described as directionally supportive and cohort-sensitive
+[ ] Integrated-US is described as statistically supported independent replication
+[ ] Mao is described as directionally consistent but not statistically significant
+
+Manual LaTeX command, if dependencies are available:
+cd /Users/krishnendu/Documents/NG_work2/curli_vag_pd/manuscript
+latexmk -pdf bmc_microbiology_curli_vagal_pd_manuscript.tex

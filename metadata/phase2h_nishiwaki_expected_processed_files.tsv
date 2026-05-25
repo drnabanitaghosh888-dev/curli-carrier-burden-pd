@@ -1,0 +1,6 @@
+dataset_id	expected_file	local_expected_path	required_for_processed_replication	required_for_raw_read_validation	priority	notes
+NISHIWAKI_MULTICOUNTRY_PD	sample_metadata.tsv	data/phase2e/processed_tables/nishiwaki_multicountry_pd/sample_metadata.tsv	yes	yes	required	must include sample_name and PD/control phenotype mapping
+NISHIWAKI_MULTICOUNTRY_PD	species_abundance.tsv	data/phase2e/processed_tables/nishiwaki_multicountry_pd/species_abundance.tsv	yes	no	required	primary processed-table ecological exposure input
+NISHIWAKI_MULTICOUNTRY_PD	README_or_data_dictionary.txt	data/phase2e/processed_tables/nishiwaki_multicountry_pd/README_or_data_dictionary.txt	yes	no	required	required for schema and provenance interpretation
+NISHIWAKI_MULTICOUNTRY_PD	license_or_access_terms.txt	data/phase2e/processed_tables/nishiwaki_multicountry_pd/license_or_access_terms.txt	yes	yes	required	required before manual download/use decisions
+NISHIWAKI_MULTICOUNTRY_PD	run_accession_mapping.tsv	data/phase2e/processed_tables/nishiwaki_multicountry_pd/run_accession_mapping.tsv	no	yes	optional_phase2h_required_phase3	raw-read validation dependency only

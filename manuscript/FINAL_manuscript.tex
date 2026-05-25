@@ -1,0 +1,318 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{authblk}
+\usepackage[authoryear,round]{natbib}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{microtype}
+\usepackage{enumitem}
+\hypersetup{colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black}
+\setlength{\parskip}{0.45em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.22}
+\newcommand{\CCB}{\mathrm{CCB}}
+\newcommand{\logCCB}{\log(1+\mathrm{CCB})}
+\newcommand{\pdgt}{PD$>$HC}
+\sloppy
+
+\title{Curli Carrier Burden: a quantitative trait-level microbiome index for amyloidogenic bacterial signals in Parkinson's disease gut metagenomes}
+\author[1,*]{Nabanita Ghosh}
+\author[2]{Krishnendu Sinha}
+\affil[1]{Department of Zoology, Maulana Azad College, Kolkata, India}
+\affil[2]{Department of Zoology, Jhargram Raj College, Jhargram, India}
+\affil[*]{Corresponding author: Nabanita Ghosh; Email: nabanitaghosh89@gmail.com}
+\date{}
+
+\begin{document}
+\maketitle
+
+\textbf{Running title:} Curli Carrier Burden in Parkinson's disease gut metagenomes\\
+\textbf{Keywords:} Parkinson's disease; gut microbiome; bacterial amyloid; curli; metagenomics; Enterobacteriaceae; trait-level index; gut-brain axis
+
+\begin{abstract}
+\textbf{Background:} Parkinson's disease (PD) gut metagenomic studies have repeatedly reported disease-associated shifts in microbial taxa, genes, and pathways. However, the field still lacks transparent trait-level indices that summarize biologically coherent microbial exposures. Curli fibres are extracellular bacterial amyloids produced by several Enterobacteriaceae and related taxa, and they provide a plausible microbiological bridge between gut microbial ecology, epithelial/immune interfaces, and alpha-synuclein-centered gut-brain-axis hypotheses. We introduced \emph{Curli Carrier Burden} (CCB), a mathematically explicit, taxon-informed index that estimates the aggregate abundance of curated curli-carrier bacterial taxa in processed metagenomic profiles.
+
+\textbf{Methods:} A curated curli-carrier candidate panel was converted into an evidence-weighted taxon set. For sample $s$, CCB was defined as $\CCB_s=\sum_{i=1}^{m} a_{is}w_i$, where $a_{is}$ is the processed relative abundance of matched curli-carrier taxon $i$ and $w_i$ is an evidence weight reflecting curli-carrier confidence. We evaluated CCB in five main PD gut metagenomic evidence streams: Wallen 2022, Integrated-US, Mao Central China, Romano non-Wallen, and DuruIC 2024. Results were interpreted cohort-wise rather than as a formal meta-analysis.
+
+\textbf{Results:} The CCB framework generated a reproducible sample-level microbial trait variable and enabled cohort-wise comparison of amyloidogenic bacterial burden. Wallen showed discovery-stage PD-associated elevation (724 samples; 31 matched curli taxa; Mann-Whitney $p=0.0020$). Integrated-US provided supportive independent evidence (244 samples; 18 matched taxa; $p=0.0079$). Mao Central China and DuruIC 2024 showed the same PD-greater-than-control direction by mean and median CCB, although their individual comparisons were not nominally significant. Romano non-Wallen provided a large multi-study analysis (600 samples; 29 matched curli-associated mOTUs taxa), with higher PD mean and median CCB in pooled analysis ($p=0.0036$, Cliff's $\delta=0.137$) and cohort-sensitive behavior under study-stratified permutation ($p=0.1974$). Additional processed-cohort checks indicated that CCB interpretability depends on taxonomic representation and matched curli-candidate coverage, reinforcing the value of explicit compatibility reporting.
+
+\textbf{Conclusions:} CCB is a novel, extensible, microbiology-informed index for quantifying amyloidogenic curli-carrier bacterial burden in processed gut metagenomic profiles. The current results support CCB as a useful exploratory trait-level variable for PD microbiome research and provide a principled route toward future raw-read, csg-operon, strain-resolved, and phenotype-aware studies of the curli-vagal PD axis.
+\end{abstract}
+
+\section*{Background}
+
+Parkinson's disease is increasingly studied as a systemic disorder in which gastrointestinal biology, microbial ecology, immune signaling, and the gut-brain axis may interact with neurodegenerative processes. Gut metagenomic studies have reported recurrent but cohort-dependent taxonomic and functional differences between PD and control groups \citep{romano2021,wallen2022,nishiwaki2024}. These studies have made it clear that single-taxon associations are often sensitive to geography, study design, medication exposure, sequencing platform, and bioinformatic representation. Therefore, a complementary strategy is needed: rather than asking only whether one species is enriched or depleted, one can ask whether a biologically coherent microbial \emph{trait class} is shifted at the sample level.
+
+Bacterial amyloids provide a strong candidate trait class for PD gut microbiome research. Curli fibres are extracellular amyloid structures involved in biofilm formation, adhesion, environmental persistence, and host interaction in \emph{Escherichia coli}, \emph{Salmonella}, and several related Enterobacteriaceae \citep{barnhart2006}. Experimental work has connected bacterial amyloid exposure with enhanced alpha-synuclein aggregation in animal and nematode models \citep{chen2016}, making curli biology relevant to microbiome-centered hypotheses of PD. Importantly, curli biology is not represented by a single bacterial species. A sample may contain multiple low-abundance or moderate-abundance curli-carrier taxa whose combined burden is more informative than any one taxon alone.
+
+This study introduces \textbf{Curli Carrier Burden} (CCB), a weighted abundance index that converts a curated curli-carrier taxon panel into a sample-level quantitative trait. CCB does not claim to directly measure curli gene expression or operon completeness. Instead, it provides a conservative, transparent, and reproducible proxy for the processed abundance of bacteria with curli-carrier potential. Its novelty lies in bringing together microbiological curation, explicit confidence weighting, sample-wise trait aggregation, and cohort-wise evidence interpretation into one index.
+
+The purpose of the present work is therefore not to produce a diagnostic classifier or a formal pooled meta-analysis. The purpose is to establish CCB as a mathematically defined and biologically motivated microbial trait index, evaluate its behavior across public processed PD gut metagenomic evidence streams, and define how this index can guide future gene-centric and strain-resolved studies of the curli-vagal PD axis.
+
+\section*{Methods}
+
+\subsection*{Study design}
+
+This was a computational, cohort-wise analysis of processed PD gut metagenomic datasets. The analytical workflow had four linked layers: (i) curation of curli-carrier candidate taxa, (ii) construction of a weighted sample-wise CCB index, (iii) cohort-specific PD-control analysis, and (iv) descriptive cross-cohort evidence interpretation. The design emphasizes transparent trait quantification rather than black-box prediction.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{assets/figure1_ccb_architecture.pdf}
+\caption{Biological and analytical architecture of Curli Carrier Burden. CCB connects a biological layer of curli-carrier bacterial taxa and bacterial amyloid relevance with a computational layer that combines processed abundance values, curated taxon evidence, and confidence weights. The resulting sample-wise burden score is then evaluated cohort-wise across PD gut metagenomic datasets.}
+\label{fig:architecture}
+\end{figure}
+
+\subsection*{Processed metagenomic evidence streams}
+
+The main analysis focused on five evidence streams: Wallen 2022, Integrated-US, Mao Central China, Romano non-Wallen, and DuruIC 2024. Wallen was treated as the discovery stream. Integrated-US and Mao Central China were treated as replication or external evaluation streams. Romano non-Wallen was analyzed after excluding Wallen-derived samples to reduce discovery-replication overlap. DuruIC 2024 was extracted through the ASAP-MAC/processed metagenomic data route and provided an additional independent Finnish fecal shotgun cohort \citep{duru2024,asapmac2026}. The cohort summary is shown in Table~\ref{tab:datasets}.
+
+\begin{table}[H]
+\centering
+\caption{Main processed PD gut metagenomic cohorts used for CCB evaluation.}
+\label{tab:datasets}
+\scriptsize
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.7cm} >{\raggedright\arraybackslash}p{2.6cm} r r r >{\raggedright\arraybackslash}X}
+\toprule
+Cohort & Analytical role & $n$ & PD & HC/control & Main interpretation role \\
+\midrule
+Wallen 2022 & Discovery & 724 & 490 & 234 & Initial CCB signal evaluation \\
+Integrated-US & Independent support & 244 & 95 & 149 & Supportive processed-cohort replication \\
+Mao Central China & External evaluation & 78 & 39 & 39 & Geographically distinct directional evidence \\
+Romano non-Wallen & Multi-study external evaluation & 600 & 280 & 320 & Cohort-aware robustness analysis \\
+DuruIC 2024 & Additional external evaluation & 134 & 68 & 66 & Independent Finnish processed-cohort test \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection*{Curli-carrier candidate panel}
+
+The CCB candidate panel was constructed from project-curated curli-associated bacterial taxa. The panel included representative curli-carrier or curli-plausible taxa from Enterobacteriaceae and related groups, including \emph{Escherichia}, \emph{Klebsiella}, \emph{Enterobacter}, \emph{Citrobacter}, \emph{Salmonella}, \emph{Hafnia}, \emph{Kluyvera}, \emph{Leclercia}, \emph{Kosakonia}, \emph{Lelliottia}, and related lineages where taxonomic and microbiological evidence supported inclusion. Candidate taxa were matched to processed abundance tables at the most specific available taxonomic resolution. Species-level exact matching was preferred; genus-level or ambiguous species-complex matching was retained only where the processed abundance format limited taxonomic specificity.
+
+\subsection*{Mathematical definition of Curli Carrier Burden}
+
+Let $\mathcal{C}=\{(t_i,w_i)\}_{i=1}^{m}$ denote the curated curli-carrier candidate set, where $t_i$ is candidate taxon $i$ and $w_i$ is its evidence weight. Let $a_{is}$ be the relative abundance of taxon $t_i$ in sample $s$ after matching the curated candidate set to the processed abundance table. The sample-wise Curli Carrier Burden is defined as:
+
+\begin{equation}
+\CCB_s = \sum_{i=1}^{m} a_{is}w_i.
+\label{eq:ccb}
+\end{equation}
+
+For analyses benefiting from scale stabilization, the transformed burden was defined as:
+
+\begin{equation}
+\logCCB_s = \log(1+\CCB_s).
+\label{eq:logccb}
+\end{equation}
+
+The weighting function was defined as:
+
+\begin{equation}
+w_i =
+\begin{cases}
+1.00, & \text{high-confidence curli-carrier taxon},\\
+0.50, & \text{medium-confidence curli-carrier or species-complex match},\\
+0.25, & \text{low-confidence lineage-level or ambiguous match}.
+\end{cases}
+\label{eq:weights}
+\end{equation}
+
+Thus, CCB is a weighted linear burden index. It preserves the direction and magnitude of processed abundance values while preventing lower-confidence matches from contributing as strongly as high-confidence species-level matches. The formula is intentionally simple and auditable: every sample-level score can be decomposed into its taxon-level abundance and evidence-weight components.
+
+\subsection*{Index compatibility and interpretability}
+
+Because processed metagenomic datasets differ in taxonomic representation, CCB interpretation requires recording the number of candidate taxa successfully matched in each cohort. For cohort $d$, we define the matched candidate count:
+
+\begin{equation}
+K_d = |\{t_i \in \mathcal{C}: t_i \text{ is represented in the processed abundance profile of cohort } d\}|.
+\label{eq:compat}
+\end{equation}
+
+A higher $K_d$ indicates broader compatibility between the processed taxonomic profile and the curated CCB candidate panel. This does not guarantee a positive association with PD, but it improves the interpretability of a cohort as a test of the CCB construct. Cohorts with low matched-taxon coverage remain informative for understanding the boundary conditions of the index, whereas cohorts with moderate-to-high matched-taxon coverage provide stronger tests of aggregate curli-carrier burden.
+
+\begin{table}[H]
+\centering
+\caption{Mathematical components of the Curli Carrier Burden framework.}
+\label{tab:math}
+\small
+\begin{tabularx}{\textwidth}{l l X}
+\toprule
+Symbol/component & Definition & Interpretation \\
+\midrule
+$\mathcal{C}$ & Curated candidate set & Evidence-supported taxa with curli-carrier or curli-plausible biology \\
+$t_i$ & Candidate taxon $i$ & Species, species-complex, or best available processed taxonomic unit \\
+$a_{is}$ & Relative abundance of $t_i$ in sample $s$ & Processed metagenomic abundance value \\
+$w_i$ & Evidence weight for $t_i$ & Confidence-adjusted contribution to CCB \\
+$\CCB_s$ & $\sum_i a_{is}w_i$ & Sample-wise weighted burden of curli-carrier taxa \\
+$\logCCB_s$ & $\log(1+\CCB_s)$ & Scale-stabilized form for distributional comparison \\
+$K_d$ & Number of matched candidate taxa in cohort $d$ & Compatibility between processed taxonomy and the CCB panel \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection*{Cohort-specific statistical analysis}
+
+Within each cohort, PD and control CCB distributions were compared using non-parametric Mann-Whitney U tests. Mean and median CCB were reported to separate distributional shift from outlier-sensitive abundance patterns. Cliff's $\delta$ was reported where available as a non-parametric effect-size descriptor. Romano non-Wallen was additionally evaluated using leave-one-study-out analysis, within-study effect profiling, and study-stratified permutation testing. Evidence interpretation used direction, nominal statistical support, effect size, sample size, and matched-taxon compatibility.
+
+\subsection*{Additional processed-cohort scope checks}
+
+Additional ASAP-MAC processed cohorts, including NishiwakiH 2024 and SampsonTR 2025, were explored as scope checks for the CCB framework. These analyses were not used to redefine the index or tune its parameters. Their role was to test how the current CCB panel behaves when processed taxonomic representation differs across cohorts. This is important because CCB is a trait-level index whose interpretability depends on the overlap between the candidate panel and the available taxonomic profiles.
+
+\section*{Results}
+
+\subsection*{CCB converts curli-associated microbiology into a quantitative sample-level trait}
+
+The CCB framework transformed a curated list of curli-carrier or curli-plausible bacteria into a sample-level burden score. This is the central contribution of the study. Instead of treating bacterial amyloid biology as a narrative interpretation after taxonomic testing, CCB makes it a measurable variable. Each score has a transparent decomposition into matched taxa, relative abundance values, and evidence weights. This mathematical clarity makes the index reusable, updatable, and comparable across studies.
+
+\subsection*{Discovery and support across main processed cohorts}
+
+Wallen 2022 provided the discovery-stage signal. The analysis included 724 samples, comprising 490 PD and 234 controls, with 31 matched curli-carrier taxa. PD samples showed higher CCB than controls by both mean and median values. PD mean and median CCB were 1.81 and 0.068, respectively, compared with control values of 1.39 and 0.019. The primary Mann-Whitney comparison supported a PD-enriched discovery signal ($p=0.0020$).
+
+Integrated-US provided supportive independent evidence. This cohort included 244 samples, comprising 95 PD and 149 controls, with 18 matched curli-carrier taxa. PD mean and median CCB were 2.00 and 0.125, respectively, compared with control values of 1.82 and 0.000. The primary Mann-Whitney burden comparison supported higher CCB in PD ($p=0.0079$).
+
+Mao Central China provided geographically distinct external evidence. The analysis included 78 samples, balanced between 39 PD and 39 controls, with 17 matched burden taxa. PD mean and median CCB were 6.88 and 2.08, respectively, compared with control values of 4.56 and 1.71. The PD-greater-than-control direction was present by both mean and median CCB, although the individual cohort-level comparison was not nominally significant ($p=0.2673$).
+
+\subsection*{Romano non-Wallen adds a large multi-study cohort-aware evaluation}
+
+The Romano non-Wallen analysis provided a large multi-study external evaluation after excluding Wallen-derived samples. The final set contained 600 samples from 6 studies, including 280 PD and 320 HC samples. The processed mOTUs profile yielded 29 matched curli-associated taxa. PD median CCB was $9.72\times10^{-4}$, compared with HC median CCB of $5.97\times10^{-4}$. PD mean CCB was 0.0153, compared with HC mean CCB of 0.0104. The pooled Mann-Whitney test supported higher CCB in PD ($p=0.0036$), with Cliff's $\delta=0.137$.
+
+The Romano study-stratified analysis refined this interpretation. Leave-one-study-out analysis retained the PD-greater-than-HC direction by both mean and median CCB. Within-study analyses showed PD-greater-than-HC direction by mean in 4 of 6 studies and by median in 3 of 6 studies. The study-stratified permutation result ($p=0.1974$) indicates that the Romano signal is best interpreted as cohort-sensitive external support. This is valuable because it demonstrates how CCB can be used not only to detect a pooled signal but also to reveal the cohort structure of that signal.
+
+\subsection*{DuruIC 2024 provides additional independent directional evidence}
+
+DuruIC 2024 added an independent Finnish processed fecal metagenomic evidence stream. The final matched processed set contained 134 samples, comprising 68 PD and 66 HC samples, with 42 matched curli-carrier taxa. PD mean CCB was 1.1817 compared with HC mean CCB of 1.1663. PD median CCB was 0.1546 compared with HC median CCB of 0.0353. The direction was therefore PD-greater-than-HC by both mean and median CCB, although the Mann-Whitney comparison was not nominally significant ($p=0.3069$, Cliff's $\delta=0.1025$). DuruIC 2024 therefore supports the value of CCB as a directional, exploratory trait-level index in an independent processed cohort.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{assets/figure2_cohort_evidence_dashboard.pdf}
+\caption{Cohort-wise evidence dashboard for CCB. Panel A compares PD and control mean CCB on a symlog scale to accommodate both high-abundance and low-abundance processed profiles. Panel B summarizes directional effect using the log$_2$ ratio of PD mean CCB to control mean CCB; point size reflects matched curli-candidate coverage. Panel C provides a compact descriptive evidence matrix. This figure is a cohort-wise synthesis and not a formal pooled meta-analysis.}
+\label{fig:evidence}
+\end{figure}
+
+\begin{landscape}
+\begin{table}[H]
+\centering
+\caption{Cohort-wise quantitative evidence for Curli Carrier Burden across PD gut metagenomic evidence streams.}
+\label{tab:evidence}
+\small
+\begin{tabular}{lrrrrrrrrrl}
+\toprule
+Cohort & $n$ & PD & HC & Matched taxa & PD mean & HC mean & PD median & HC median & $p$ value & Evidence class \\
+\midrule
+Wallen 2022 & 724 & 490 & 234 & 31 & 1.8100 & 1.3900 & 0.0680 & 0.0190 & 0.0020 & Discovery signal \\
+Integrated-US & 244 & 95 & 149 & 18 & 2.0000 & 1.8200 & 0.1250 & 0.0000 & 0.0079 & Supportive replication \\
+Mao Central China & 78 & 39 & 39 & 17 & 6.8800 & 4.5600 & 2.0800 & 1.7100 & 0.2673 & Directional support \\
+Romano non-Wallen & 600 & 280 & 320 & 29 & 0.0153 & 0.0104 & 0.0010 & 0.0006 & 0.0036 & Cohort-sensitive support \\
+DuruIC 2024 & 134 & 68 & 66 & 42 & 1.1817 & 1.1663 & 0.1546 & 0.0353 & 0.3069 & Directional support \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}
+
+\subsection*{Processed-cohort scope checks define the boundary conditions of CCB}
+
+Additional processed-cohort checks demonstrated the practical importance of taxonomic compatibility. NishiwakiH 2024 produced mixed CCB behavior under the locked processed-data workflow. SampsonTR 2025 was selected a priori as the largest not-yet-analyzed eligible ASAP-MAC cohort, but only one curated curli-carrier taxon was matched in the species-like abundance profile; consequently, it was not a strong test of the full CCB candidate panel. These findings are useful because they show that CCB should always be reported with $K_d$, the number of matched candidate taxa. In this way, the index encourages transparent interpretation instead of forcing all processed cohorts into the same evidentiary category.
+
+\section*{Discussion}
+
+This study introduces Curli Carrier Burden as a quantitative trait-level microbiome index for PD gut metagenomic research. The main novelty is not the observation that PD microbiomes differ from controls; that has already been reported by several studies. The novelty is the construction of a microbiology-informed burden variable that aggregates amyloidogenic curli-carrier taxa into a transparent, sample-wise score. This index creates a bridge between taxonomic metagenomic profiles and a biologically meaningful bacterial trait.
+
+The mathematical design of CCB is intentionally simple. It is a weighted abundance sum, but that simplicity is a strength. Every component of the score is interpretable: the candidate taxon, its abundance, and its evidence weight. The framework can therefore be inspected, updated, challenged, and reused. If future experimental or genomic studies refine the curli-carrier status of particular taxa, the candidate panel and weights can be updated without changing the structure of the index. If future datasets provide gene-level csg abundance or strain-level operon completeness, these can be integrated as higher-resolution weights or validation layers.
+
+The cohort-wise results support the utility of CCB as an exploratory microbiome trait index. Wallen and Integrated-US provided nominally supported PD-associated elevation. Mao Central China and DuruIC 2024 showed the same PD-greater-than-HC direction by both mean and median CCB, although their individual cohort-level tests were not nominally significant. Romano non-Wallen added a large multi-study analysis in which pooled CCB was higher in PD and leave-one-study-out direction was retained, while stratified permutation emphasized cohort-sensitive structure. This pattern is biologically meaningful because public PD microbiome cohorts are not interchangeable. They differ in geography, recruitment, sequencing, preprocessing, and taxonomic representation. CCB helps summarize a biologically motivated trait while preserving the ability to inspect cohort dependence.
+
+The additional scope checks further clarify how CCB should be used. A processed cohort with very low matched-taxon coverage is not an equally strong test of the CCB construct. This is not a failure of the biological idea; rather, it is a reminder that trait-level indices depend on how well the trait is represented in the available feature table. The matched-taxon count $K_d$ is therefore an essential companion metric. Reporting $K_d$ alongside CCB prevents overinterpretation and allows future studies to distinguish biological absence from technical or taxonomic under-representation.
+
+The importance of CCB lies in its ability to convert a mechanistic microbiome hypothesis into a measurable feature. Curli biology is relevant to bacterial adhesion, biofilm ecology, host interaction, and bacterial amyloid exposure. These features are difficult to capture using single-taxon differential abundance testing alone. CCB allows investigators to ask a more biologically organized question: does the aggregate burden of curli-carrier taxa differ between PD and controls? This is a different question from whether \emph{E. coli}, \emph{Klebsiella}, or \emph{Enterobacter} alone is enriched. The index therefore opens a path toward more structured analyses of microbial amyloid ecology.
+
+The present work also provides a foundation for the next generation of curli-vagal PD studies. CCB can be used to prioritize samples for raw-read csgA-csgG mapping, identify cohorts with sufficient curli-candidate coverage, and select high-CCB and low-CCB samples for gene-centric validation. A direct next step is a Curli Operon Integrity Score (COIS), in which read-supported csg operon completeness, csgA/csgG abundance, and strain-level taxonomic assignment are integrated. Such a pipeline would move from taxon-informed exposure potential to gene-supported curli capacity. This is precisely where the current index is most useful: it provides a rational discovery layer that can guide deeper, more expensive validation.
+
+The framework can also support subtype-aware PD research. Gastrointestinal symptoms, constipation, rapid eye movement sleep behavior disorder, hyposmia, autonomic features, and body-first/vagal hypotheses are all relevant to PD heterogeneity. Once raw-read csg evidence and richer clinical metadata are available, CCB and COIS can be evaluated against these phenotypic axes. This would allow future studies to ask whether microbial amyloid burden is associated with particular PD subgroups rather than with PD status alone.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{assets/figure3_future_validation_roadmap.pdf}
+\caption{Future validation roadmap from CCB to the curli-vagal PD axis. The current study establishes the mathematical CCB index and evaluates it across processed metagenomic cohorts. The next analytical layer can use CCB to prioritize raw-read csgA-csgG mapping, Curli Operon Integrity Score construction, strain-resolved curli-positive lineage analysis, and subtype-aware gut-brain-axis modeling.}
+\label{fig:roadmap}
+\end{figure}
+
+Overall, CCB should be viewed as a reusable analytical framework rather than a final mechanistic endpoint. Its value is that it makes bacterial amyloid carrier burden measurable in public processed metagenomic datasets and creates a structured hypothesis-generating bridge to gene-centric and strain-resolved validation. The current results support the biological plausibility and practical utility of this approach while also showing why future work should explicitly report taxon compatibility, cohort structure, and raw-read validation.
+
+\section*{Conclusions}
+
+We introduced Curli Carrier Burden as a novel, weighted, taxon-informed index for estimating amyloidogenic curli-carrier bacterial burden in processed gut metagenomic profiles. Across main PD gut microbiome evidence streams, CCB showed PD-associated elevation in several cohorts and directionally consistent behavior in additional independent data, with cohort-aware analyses highlighting the importance of matched-taxon compatibility and study structure. The framework provides a clear mathematical foundation for future microbiome trait-burden studies and establishes a practical route toward raw-read csg operon validation, strain-resolved curli biology, and deeper investigation of the curli-vagal PD axis.
+
+\section*{Declarations}
+
+\subsection*{Ethics approval and consent to participate}
+This study used public or processed de-identified metagenomic data resources and did not involve new human participant recruitment, sample collection, or wet-laboratory experimentation.
+
+\subsection*{Consent for publication}
+Not applicable.
+
+\subsection*{Availability of data and materials}
+The analysis used publicly available or processed metagenomic resources and derived project reports. The analysis code, curated candidate tables, generated CCB summaries, and figure/table source files should be deposited in a public repository or archive before submission.
+
+\subsection*{Competing interests}
+The authors declare that they have no competing interests.
+
+\subsection*{Funding}
+No specific funding was received for this study.
+
+\subsection*{Authors' contributions}
+NG conceptualized the study. NG led the biological framing of the curli-vagal PD hypothesis, contributed to interpretation of bacterial amyloid relevance, and critically shaped the manuscript. NG and KS designed and implemented the computational CCB framework, performed the cohort-wise analyses, generated figures and tables, and contributed to manuscript drafting and revision. Both authors read and approved the final version.
+
+\subsection*{Acknowledgements}
+The authors acknowledge the investigators and data-resource teams who generated, curated, and released the Parkinson's disease gut metagenomic datasets and processed resources analyzed in this work.
+
+\begin{thebibliography}{99}
+
+\bibitem[ASAP-MAC(2026)]{asapmac2026}
+ASAP-MAC. \textit{parkinsonsMetagenomicData: uniformly processed gut microbiome data from Parkinson's disease studies}. GitHub repository. Available at: \url{https://github.com/ASAP-MAC/parkinsonsMetagenomicData}. Accessed 2026.
+
+\bibitem[Barnhart and Chapman(2006)]{barnhart2006}
+Barnhart MM, Chapman MR. Curli biogenesis and function. \textit{Annual Review of Microbiology}. 2006;60:131--147. doi:10.1146/annurev.micro.60.080805.142106.
+
+\bibitem[Bedarf et~al.(2017)]{bedarf2017}
+Bedarf JR, Hildebrand F, Coelho LP, Sunagawa S, Bahram M, Goeser F, Bork P, Wullner U. Functional implications of microbial and viral gut metagenome changes in early stage L-DOPA-naive Parkinson's disease patients. \textit{Genome Medicine}. 2017;9:39. doi:10.1186/s13073-017-0428-y.
+
+\bibitem[Boktor et~al.(2023)]{boktor2023}
+Boktor JC, Sharon G, Verhagen Metman LA, Lee SJ, Matheoud D, Sampson TR, Gradinaru V. Integrated multi-cohort analysis of the Parkinson's disease gut metagenome. \textit{Movement Disorders}. 2023;38:399--409. doi:10.1002/mds.29300.
+
+\bibitem[Chen et~al.(2016)]{chen2016}
+Chen SG, Stribinskis V, Rane MJ, Demuth DR, Gozal E, Roberts AM, Jagadapillai R, Liu R, Choe KY, Shivakumar B, Son F, Jin S, Kerber R, Adame A, Masliah E, Friedland RP. Exposure to the functional bacterial amyloid protein curli enhances alpha-synuclein aggregation in aged Fischer 344 rats and \textit{Caenorhabditis elegans}. \textit{Scientific Reports}. 2016;6:34477. doi:10.1038/srep34477.
+
+\bibitem[Duru et~al.(2024)]{duru2024}
+Duru IC, Lecomte A, Shishido TK, et al. Metagenome-assembled microbial genomes from Parkinson's disease fecal samples. \textit{Scientific Reports}. 2024;14:18906. doi:10.1038/s41598-024-69742-4.
+
+\bibitem[Mao et~al.(2021)]{mao2021}
+Mao L, Zhang Q, Li H, Chen Y, Li Y, Huang X, Zheng P, Li J, Li X, Chen J, Xie P. Cross-sectional study on the gut microbiome of Parkinson's disease patients in central China. \textit{Frontiers in Microbiology}. 2021;12:728479. doi:10.3389/fmicb.2021.728479.
+
+\bibitem[Nishiwaki et~al.(2024)]{nishiwaki2024}
+Nishiwaki H, Ito M, Ishida T, et al. Meta-analysis of shotgun sequencing of gut microbiota in Parkinson's disease. \textit{npj Parkinson's Disease}. 2024. doi:10.1038/s41531-024-00724-z.
+
+\bibitem[Pasolli et~al.(2017)]{pasolli2017}
+Pasolli E, Schiffer L, Manghi P, et al. Accessible, curated metagenomic data through ExperimentHub. \textit{Nature Methods}. 2017;14:1023--1024. doi:10.1038/nmeth.4468.
+
+\bibitem[Qian et~al.(2020)]{qian2020}
+Qian Y, Yang X, Xu S, Huang P, Li B, Du J, He Y, Su B, Xu L, Wu B, Wang L, Liu M, Chen S, Wang X, Jin H, Zhang L, Li H, Zhang Y, Liu J, Wang H. Gut metagenomics-derived genes as potential biomarkers of Parkinson's disease. \textit{Brain}. 2020;143:2474--2489. doi:10.1093/brain/awaa201.
+
+\bibitem[Romano et~al.(2021)]{romano2021}
+Romano S, Savva GM, Bedarf JR, Charles IG, Hildebrand F, Narbad A. Meta-analysis of the Parkinson's disease gut microbiome suggests alterations linked to intestinal inflammation. \textit{npj Parkinson's Disease}. 2021;7:27. doi:10.1038/s41531-021-00156-z.
+
+\bibitem[Wallen et~al.(2022)]{wallen2022}
+Wallen ZD, Appah M, Dean MN, Sesler CL, Factor SA, Molho E, Zabetian CP, Standaert DG, Payami H. Metagenomics of Parkinson's disease implicates the gut microbiome in multiple disease mechanisms. \textit{Nature Communications}. 2022;13:6958. doi:10.1038/s41467-022-34667-x.
+
+\end{thebibliography}
+
+\end{document}

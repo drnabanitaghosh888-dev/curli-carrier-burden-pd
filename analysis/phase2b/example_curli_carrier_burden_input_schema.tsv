@@ -1,0 +1,2 @@
+sample_id	dataset_id	taxon_name	abundance	curli_candidate_confidence	confidence_weight
+SAMPLE_001	WALLEN_PRJNA834801	Escherichia coli	0.012	high	1.0

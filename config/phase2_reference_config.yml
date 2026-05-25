@@ -1,0 +1,46 @@
+phase2_reference:
+  expected_genes:
+    - csgA
+    - csgB
+    - csgC
+    - csgD
+    - csgE
+    - csgF
+    - csgG
+  valid_weights:
+    - high
+    - moderate
+    - low
+  required_columns:
+    - gene_symbol
+    - functional_role
+    - biological_weight
+    - core_score
+    - operon_completeness
+  paths:
+    manifest_tsv: data/reference_manifest/curli_gene_manifest.tsv
+  thresholds:
+    min_core_genes_for_positive: 3
+    min_operon_completeness_fraction: 0.57
+    min_high_weight_genes_for_confidence: 2
+  safety:
+    default_dry_run: true
+    require_explicit_heavy_flag: true
+    heavy_execution_flag_name: --allow-heavy
+    heavy_commands_blocked_by_default:
+      - hmmsearch
+      - hmmbuild
+      - mafft
+      - blastp
+      - diamond
+      - cd-hit
+      - make
+  reference_plan:
+    output_plan_tsv: data/reference_manifest/curli_reference_plan.tsv
+    reference_group: "curli_operon_reference"
+    target_taxa: "Escherichia coli; Salmonella enterica; Enterobacteriaceae"
+    intended_reference_source: "UniProt/curated literature references (planned only)"
+    outputs:
+      fasta_dir: data/reference_build/fasta
+      alignment_dir: data/reference_build/alignments
+      hmm_dir: data/reference_build/hmms

@@ -1,0 +1,11 @@
+rule_id	readiness_level	required_evidence	blocks_if_missing	notes
+R1_PROCESSED_READY_SHOTGUN	replication_processed_analysis	sequencing_type=shotgun_metagenomics	yes	16S-only cohorts are not eligible for core replication
+R2_PROCESSED_READY_SPECIES_TABLE	replication_processed_analysis	species_abundance.tsv available	yes	species table required for CurliCarrierBurden replication proxy
+R3_PROCESSED_READY_SAMPLE_METADATA	replication_processed_analysis	sample_metadata.tsv available	yes	required sample harmonization key
+R4_PROCESSED_READY_LABELS	replication_processed_analysis	PD/control labels available	yes	required for case-control comparison
+R5_PROCESSED_READY_ACCESS	replication_processed_analysis	access/reuse terms acceptable	yes	restricted/unusable access blocks replication
+R6_NOT_READY_16S	replication_processed_analysis	only 16S available	yes	cohort not eligible for core shotgun replication
+R7_NOT_READY_MISSING_LINK	replication_processed_analysis	metadata cannot link to sample IDs	yes	no reliable sample-level analysis possible
+R8_RAW_READY_MAPPING	raw_read_validation	run_accession_mapping.tsv available	yes	required before any raw-read follow-up
+R9_RAW_READY_METADATA	raw_read_validation	sample metadata and disease labels available	yes	required for subset selection and interpretation
+R10_RAW_READY_ACCESS	raw_read_validation	access terms allow download/use	yes	raw-read work not permitted otherwise

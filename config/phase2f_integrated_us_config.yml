@@ -1,0 +1,46 @@
+project: curli_vag_pd
+phase: PHASE_2F_A
+cohort_id: INTEGRATED_US_MULTICOHORT_PD
+cohort_type: processed_table_replication
+
+discovery_cohort: Wallen
+replication_cohort: Integrated-US
+raw_read_validation: not_performed
+raw_read_blocker: run_accession_mapping_not_available
+
+inputs:
+  sample_metadata: data/phase2e/processed_tables/integrated_us_multicohort_pd/sample_metadata.tsv
+  species_abundance: data/phase2e/processed_tables/integrated_us_multicohort_pd/species_abundance.tsv
+  readme_or_data_dictionary: data/phase2e/processed_tables/integrated_us_multicohort_pd/README_or_data_dictionary.txt
+  license_or_access_terms: data/phase2e/processed_tables/integrated_us_multicohort_pd/license_or_access_terms.txt
+  run_accession_mapping_placeholder: data/phase2e/processed_tables/integrated_us_multicohort_pd/run_accession_mapping.NOT_AVAILABLE_YET.txt
+  curli_candidates: metadata/curli_candidate_taxa_from_phase1.tsv
+  taxon_matching_rules: metadata/phase2d_curli_taxon_matching_rules.tsv
+
+exposure:
+  primary: CurliCarrierBurden
+  primary_predictor: CurliCarrierBurden_log1p
+  secondary: CurliCarrierPresence
+
+outcome:
+  primary: PD_binary
+  case_control_definition: PD_vs_all_controls
+
+covariates:
+  primary_adjusted:
+    - host_age
+    - sex
+    - host_body_mass_index
+
+comparisons:
+  primary: PD_vs_all_controls
+  sensitivity:
+    - PD_vs_PC_only
+    - PD_vs_HC_only
+
+matching_rules:
+  primary_burden_species: exact_or_binomial_species_matches_only
+  genus_fallback_primary: excluded
+  genus_fallback_exploratory: allowed_but_not_for_primary_inference
+
+execution_mode_default: dry_run

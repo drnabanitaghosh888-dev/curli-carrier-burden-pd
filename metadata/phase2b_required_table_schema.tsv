@@ -1,0 +1,9 @@
+table_type	required	minimum_columns	preferred_columns	accepted_formats	notes
+sample_metadata	yes	sample_id,dataset_id,sample_type,sequencing_type,sample_id_alt,batch,collection_time,storage_protocol	tsv,csv	required to harmonize table joins and enforce cohort filters
+species_abundance	yes	sample_id,taxon,abundance	relative_abundance,read_count,normalization_method	tsv,csv	primary taxonomic feature table for processed-table triage
+genus_abundance	no	sample_id,taxon,abundance	relative_abundance,read_count,normalization_method	tsv,csv	useful backup taxonomic level when species-level tables are sparse
+gene_family_abundance	yes	sample_id,gene_family,abundance	annotation_db,units,normalization_method	tsv,csv	required for functional proxy analyses before raw-read validation
+pathway_abundance	yes	sample_id,pathway,abundance	annotation_db,units,normalization_method	tsv,csv	pathway-level context for mechanistic prioritization
+run_accession_mapping	yes	sample_id,run_accession,subject_id	library_layout,instrument_platform,read_length	tsv,csv	required bridge for any later targeted raw-read follow-up
+clinical_metadata	no	sample_id,pd_control_status	age,sex,disease_duration,UPDRS,medication,geography,batch	tsv,csv	preferred for covariate-aware interpretation across cohorts
+vagal_body_first_metadata	no	sample_id,pd_control_status	constipation,REM_sleep_behavior_disorder,hyposmia,autonomic_symptoms,disease_duration,UPDRS,medication,age,sex,geography,batch	tsv,csv	preferred fields; not strictly required because many cohorts are incomplete

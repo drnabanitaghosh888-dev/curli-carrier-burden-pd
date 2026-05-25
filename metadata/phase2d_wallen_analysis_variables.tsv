@@ -1,0 +1,10 @@
+variable_name	source_file	role	required	expected_type	allowed_or_expected_values	missing_value_handling	notes
+sample_name	sample_metadata.tsv	sample_id	yes	string	unique sample identifier	fail_if_missing	required join key across all tables
+Case_status	sample_metadata.tsv	outcome_label	yes	categorical	PD;Control	fail_if_missing	defines case-control labels
+Age_at_collection	sample_metadata.tsv	covariate_core	no	numeric	non-negative	keep_missing_no_imputation	used for adjusted models when available
+Sex	sample_metadata.tsv	covariate_core	no	categorical	M;F;Male;Female;other cohort codes	keep_missing_no_imputation	harmonize coding before model fitting
+BMI	sample_metadata.tsv	covariate_core	no	numeric	plausible adult range preferred	keep_missing_no_imputation	used for adjusted models when available
+Bristol_stool_chart	sample_metadata.tsv	covariate_exploratory	no	numeric_or_ordinal	1-7 or cohort-specific equivalent	keep_missing_no_imputation	exploratory body-first proxy context
+Day_of_stool_collection_constipation	sample_metadata.tsv	covariate_exploratory	no	binary_or_ordinal	0/1 or cohort-specific equivalent	keep_missing_no_imputation	exploratory only
+Day_of_stool_collection_diarrhea	sample_metadata.tsv	covariate_exploratory	no	binary_or_ordinal	0/1 or cohort-specific equivalent	keep_missing_no_imputation	exploratory only
+Day_of_stool_collection_bloating	sample_metadata.tsv	covariate_exploratory	no	binary_or_ordinal	0/1 or cohort-specific equivalent	keep_missing_no_imputation	exploratory only

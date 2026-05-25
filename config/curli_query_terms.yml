@@ -1,0 +1,76 @@
+csgA:
+  include_terms:
+    - "gene:csgA"
+    - "curli major subunit"
+    - "curlin major subunit"
+  exclude_terms:
+    - "CsgA-like regulator"
+    - "hypothetical protein"
+    - "fimA"
+    - "flagellin"
+
+csgB:
+  include_terms:
+    - "gene:csgB"
+    - "curli nucleator protein"
+    - "curlin minor subunit"
+  exclude_terms:
+    - "hypothetical protein"
+    - "fimbrial"
+    - "flagellin"
+    - "chaperone"
+
+csgC:
+  include_terms:
+    - "gene:csgC"
+    - "curli assembly protein CsgC"
+    - "curli production protein CsgC"
+  exclude_terms:
+    - "hypothetical protein"
+    - "CsgD"
+    - "CsgE"
+    - "redox enzyme unrelated"
+
+csgD:
+  include_terms:
+    - "gene:csgD"
+    - "curli transcriptional regulator"
+    - "biofilm regulator CsgD"
+  exclude_terms:
+    - "hypothetical protein"
+    - "LuxR family unrelated"
+    - "OmpR family unrelated"
+    - "CsgA"
+
+csgE:
+  include_terms:
+    - "gene:csgE"
+    - "curli assembly protein CsgE"
+    - "curli secretion specificity factor"
+  exclude_terms:
+    - "hypothetical protein"
+    - "CsgF"
+    - "CsgG"
+    - "fimbrial"
+
+csgF:
+  include_terms:
+    - "gene:csgF"
+    - "curli assembly protein CsgF"
+    - "curli biogenesis outer membrane accessory"
+  exclude_terms:
+    - "hypothetical protein"
+    - "CsgE"
+    - "CsgG"
+    - "flagellar"
+
+csgG:
+  include_terms:
+    - "gene:csgG"
+    - "curli secretion protein CsgG"
+    - "outer membrane lipoprotein CsgG"
+  exclude_terms:
+    - "hypothetical protein"
+    - "secretin unrelated"
+    - "type III secretion"
+    - "type IV secretion"

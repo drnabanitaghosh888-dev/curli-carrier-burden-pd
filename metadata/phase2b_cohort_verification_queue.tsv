@@ -1,0 +1,15 @@
+dataset_id	verification_task	verification_status	manual_action_needed	evidence_required	blocking_for_phase2b	blocking_for_phase3	notes
+WALLEN_PRJNA834801	verify processed species table availability	pending	yes	file listing or DOI supplement index	yes	yes	required before Phase 2B processed-table analysis starts
+WALLEN_PRJNA834801	verify sample metadata availability	pending	yes	sample metadata table with PD/control labels	yes	yes	core requirement for cohort inclusion
+WALLEN_PRJNA834801	verify disease/control labels	pending	yes	explicit PD/control annotation columns	yes	yes	required for burden comparison
+WALLEN_PRJNA834801	verify raw accession mapping	pending	yes	run_accession_mapping table	yes	yes	required for later selected raw-read validation
+WALLEN_PRJNA834801	verify clinical metadata	pending	yes	clinical covariate fields	tablet_optional	yes	preferred but not mandatory for initial scaffold
+WALLEN_PRJNA834801	verify vagal/body-first phenotype metadata	pending	yes	constipation/RBD/hyposmia/autonomic fields	no	yes	key for body-first hypothesis testing
+WALLEN_PRJNA834801	verify license/access restrictions	pending	yes	data usage/license statement	yes	yes	must be clear before manual download
+WALLEN_PRJNA834801	verify sample count	pending	yes	countable sample/run records	yes	yes	724 enrolled reported; exact downloadable count must be verified
+WALLEN_PRJNA834801	verify whether processed tables are already normalized	pending	yes	table metadata or methods text	no	no	needed for harmonization strategy
+PALACIOS_PRODROMAL_PD	verify accession/source and processed table availability	pending	yes	accession, repository page, table list	yes	yes	candidate remains pending until verified
+NISHIWAKI_MULTICOUNTRY_PD	verify accession/source and processed table availability	pending	yes	accession, repository page, table list	yes	yes	candidate remains pending until verified
+MAO_CENTRAL_CHINA_PD	verify accession/source and processed table availability	pending	yes	accession, repository page, table list	yes	yes	candidate remains pending until verified
+INTEGRATED_US_MULTICOHORT_PD	verify accession/source and processed table availability	pending	yes	accession, repository page, table list	yes	yes	candidate remains pending until verified
+SIXTEEN_S_ONLY_PD_COHORTS	verify sequencing type and context-only use	pending	yes	evidence of 16S-only design	yes	no	exclude from raw csg detection workflows

@@ -1,0 +1,5 @@
+dataset_id	priority_rank	reason_for_priority	suitable_for_processed_table_analysis	suitable_for_raw_read_csg_screening	suitable_for_vagal_phenotype_analysis	expected_compute_load	manual_action_required	decision
+WALLEN_PRJNA834801	1	Largest immediately actionable PD stool shotgun cohort with raw+processed availability	yes	yes	partial_or_unknown	low_moderate_for_processed_tables_high_for_later_selected_raw_reads	yes	proceed_phase2a_first
+PD_COHORT_CANDIDATE_001	2	Independent shotgun replication cohort; accession pending verification	unknown	unknown	unknown	unknown	yes	hold_pending_manual_verification
+PD_COHORT_CANDIDATE_002	3	Additional independent replication candidate; accession pending verification	unknown	unknown	unknown	unknown	yes	hold_pending_manual_verification
+PD_16S_CONTEXT_001	4	Useful for context only; not suitable for direct csg gene detection	yes	no	unknown	low	yes	context_only_not_raw_screening
