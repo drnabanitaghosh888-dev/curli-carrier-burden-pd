@@ -17,3 +17,9 @@ The repository does not redistribute controlled-access data, raw sequencing read
 ## Citation
 
 Please cite the associated manuscript and the archived Zenodo release DOI once available.
+
+## Archived release
+
+The version of record for this repository is archived at Zenodo:
+
+DOI: 10.5281/zenodo.20371789
